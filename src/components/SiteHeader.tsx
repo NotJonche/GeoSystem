@@ -4,7 +4,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
+
 import { services } from "@/data/services";
+import QuoteCartLink from "@/components/QuoteCartLink";
 
 export default function SiteHeader() {
   const pathname = usePathname();
@@ -21,6 +23,7 @@ export default function SiteHeader() {
     setMobileServicesOpen(false);
   }
 
+  // Close menus when Escape is pressed.
   useEffect(() => {
     function handleEscape(event: KeyboardEvent) {
       if (event.key === "Escape") {
@@ -37,6 +40,7 @@ export default function SiteHeader() {
     };
   }, []);
 
+  // Close desktop dropdown when clicking outside.
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
       if (
@@ -70,15 +74,16 @@ export default function SiteHeader() {
             width={1850}
             height={820}
             priority
-            className="h-[54px] w-auto object-contain sm:h-[62px]"
+            className="h-[54px] w-auto max-w-[170px] object-contain sm:h-[62px] sm:max-w-[210px]"
           />
         </Link>
 
         {/* Desktop navigation */}
         <nav
           aria-label="Navigimi kryesor"
-          className="hidden items-center gap-9 md:flex"
+          className="hidden items-center gap-5 md:flex"
         >
+          {/* Ballina */}
           <Link
             href="/"
             onClick={closeMenus}
@@ -95,23 +100,25 @@ export default function SiteHeader() {
             )}
           </Link>
 
-          {/* Services navigation */}
+          {/* Shërbimet dropdown */}
           <div
             ref={desktopDropdownRef}
-            className="relative flex items-center gap-1"
+            className="relative -mr-4 flex items-center gap-0"
           >
             <Link
               href="/Services"
               onClick={closeMenus}
-              aria-current={pathname === "/Services" ? "page" : undefined}
+              aria-current={
+                pathname.startsWith("/Services") ? "page" : undefined
+              }
               className={`relative py-2 text-sm font-semibold transition-colors ${
-                pathname === "/Services"
+                pathname.startsWith("/Services")
                   ? "text-primary"
                   : "text-primary/70 hover:text-primary"
               }`}
             >
               Shërbimet
-              {pathname === "/Services" && (
+              {pathname.startsWith("/Services") && (
                 <span className="absolute inset-x-0 bottom-0 h-[2px] rounded-full bg-accent" />
               )}
             </Link>
@@ -171,12 +178,34 @@ export default function SiteHeader() {
             )}
           </div>
 
-          {/* Contact button */}
+          {/* Produktet */}
+          <Link
+            href="/Products"
+            onClick={closeMenus}
+            aria-current={pathname.startsWith("/Products") ? "page" : undefined}
+            className={`relative py-2 text-sm font-semibold transition-colors ${
+              pathname.startsWith("/Products")
+                ? "text-primary"
+                : "text-primary/70 hover:text-primary"
+            }`}
+          >
+            Produktet
+            {pathname.startsWith("/Products") && (
+              <span className="absolute inset-x-0 bottom-0 h-[2px] rounded-full bg-accent" />
+            )}
+          </Link>
+          {/* Shporta — Mobile */}
+          <QuoteCartLink mobile onClick={closeMenus} />
+          {/* Kontakt */}
           <Link
             href="/Contact"
             onClick={closeMenus}
             aria-current={pathname === "/Contact" ? "page" : undefined}
-            className="inline-flex min-h-11 items-center justify-center rounded-lg bg-primary px-7 py-3 text-sm font-semibold text-white transition-colors hover:bg-primary-light"
+            className={`inline-flex min-h-10 items-center justify-center rounded-lg px-5 py-2.5 text-sm font-semibold transition-colors ${
+              pathname === "/Contact"
+                ? "bg-primary-light text-white"
+                : "bg-primary text-white hover:bg-primary-light"
+            }`}
           >
             Kontakt
           </Link>
@@ -221,6 +250,7 @@ export default function SiteHeader() {
           className="border-t border-[#D7E0CB] bg-[#EEF4E5] px-6 py-5 md:hidden"
         >
           <div className="mx-auto flex max-w-7xl flex-col gap-2">
+            {/* Ballina */}
             <Link
               href="/"
               onClick={closeMenus}
@@ -230,11 +260,14 @@ export default function SiteHeader() {
               Ballina
             </Link>
 
-            {/* Mobile services */}
+            {/* Shërbimet */}
             <div className="flex items-center">
               <Link
                 href="/Services"
                 onClick={closeMenus}
+                aria-current={
+                  pathname.startsWith("/Services") ? "page" : undefined
+                }
                 className="flex-1 rounded-lg px-4 py-3 font-medium text-primary transition-colors hover:bg-[#E4ECD7]"
               >
                 Shërbimet
@@ -265,6 +298,7 @@ export default function SiteHeader() {
               </button>
             </div>
 
+            {/* Mobile services dropdown */}
             {mobileServicesOpen && (
               <div
                 id="mobile-services-menu"
@@ -291,9 +325,24 @@ export default function SiteHeader() {
               </div>
             )}
 
+            {/* Produktet */}
+            <Link
+              href="/Products"
+              onClick={closeMenus}
+              aria-current={
+                pathname.startsWith("/Products") ? "page" : undefined
+              }
+              className="rounded-lg px-4 py-3 font-medium text-primary transition-colors hover:bg-[#E4ECD7]"
+            >
+              Produktet
+            </Link>
+            {/* Shporta — NEW */}
+            <QuoteCartLink onClick={closeMenus} />
+            {/* Kontakt */}
             <Link
               href="/Contact"
               onClick={closeMenus}
+              aria-current={pathname === "/Contact" ? "page" : undefined}
               className="mt-3 rounded-lg bg-primary px-4 py-3 text-center font-semibold text-white transition-colors hover:bg-primary-light"
             >
               Kontakt

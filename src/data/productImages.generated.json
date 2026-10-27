@@ -1,0 +1,257 @@
+{
+  "accessories/hx-du8602t": [
+    "/images/products/accessories/hx-du8602t/front.webp",
+    "/images/products/accessories/hx-du8602t/side.webp",
+    "/images/products/accessories/hx-du8602t/back.webp",
+    "/images/products/accessories/hx-du8602t/top.webp"
+  ],
+  "accessories/hx-du8616d": [
+    "/images/products/accessories/hx-du8616d/front.webp",
+    "/images/products/accessories/hx-du8616d/side.webp",
+    "/images/products/accessories/hx-du8616d/back.webp",
+    "/images/products/accessories/hx-du8616d/top.webp"
+  ],
+  "controllers/a-tab": [
+    "/images/products/controllers/a-tab/front.webp",
+    "/images/products/controllers/a-tab/side.webp",
+    "/images/products/controllers/a-tab/back.webp",
+    "/images/products/controllers/a-tab/top.webp"
+  ],
+  "controllers/s60iii": [
+    "/images/products/controllers/s60iii/front.webp",
+    "/images/products/controllers/s60iii/side.webp",
+    "/images/products/controllers/s60iii/back.webp",
+    "/images/products/controllers/s60iii/top.webp"
+  ],
+  "geophysical/alpha-d200": [
+    "/images/products/geophysical/alpha-d200/front.webp"
+  ],
+  "geophysical/alpha-dt3": [
+    "/images/products/geophysical/alpha-dt3/front.webp",
+    "/images/products/geophysical/alpha-dt3/side.webp",
+    "/images/products/geophysical/alpha-dt3/back.webp",
+    "/images/products/geophysical/alpha-dt3/top.webp"
+  ],
+  "geophysical/gyro-70": [
+    "/images/products/geophysical/gyro-70/front.webp",
+    "/images/products/geophysical/gyro-70/side.webp",
+    "/images/products/geophysical/gyro-70/back.webp",
+    "/images/products/geophysical/gyro-70/top.webp"
+  ],
+  "gnss/geopuls": [
+    "/images/products/gnss/geopuls/front.webp",
+    "/images/products/gnss/geopuls/side.webp",
+    "/images/products/gnss/geopuls/back.webp",
+    "/images/products/gnss/geopuls/top.webp"
+  ],
+  "gnss/l100-pro": [
+    "/images/products/gnss/l100-pro/front.webp",
+    "/images/products/gnss/l100-pro/side.webp",
+    "/images/products/gnss/l100-pro/back.webp",
+    "/images/products/gnss/l100-pro/top.webp"
+  ],
+  "gnss/l100-pro-plus": [
+    "/images/products/gnss/l100-pro-plus/front.webp",
+    "/images/products/gnss/l100-pro-plus/side.webp",
+    "/images/products/gnss/l100-pro-plus/back.webp",
+    "/images/products/gnss/l100-pro-plus/top.webp"
+  ],
+  "gnss/l2-plus": [
+    "/images/products/gnss/l2-plus/front.webp",
+    "/images/products/gnss/l2-plus/side.webp",
+    "/images/products/gnss/l2-plus/back.webp",
+    "/images/products/gnss/l2-plus/top.webp"
+  ],
+  "gnss/l300": [
+    "/images/products/gnss/l300/front.webp",
+    "/images/products/gnss/l300/side.webp",
+    "/images/products/gnss/l300/back.webp",
+    "/images/products/gnss/l300/top.webp"
+  ],
+  "gnss/matrix-dm": [
+    "/images/products/gnss/matrix-dm/front.webp",
+    "/images/products/gnss/matrix-dm/side.webp",
+    "/images/products/gnss/matrix-dm/back.webp",
+    "/images/products/gnss/matrix-dm/top.webp"
+  ],
+  "gnss/matrix-ii": [
+    "/images/products/gnss/matrix-ii/front.webp",
+    "/images/products/gnss/matrix-ii/side.webp",
+    "/images/products/gnss/matrix-ii/back.webp",
+    "/images/products/gnss/matrix-ii/top.webp"
+  ],
+  "gnss/matrix-ii-lite": [
+    "/images/products/gnss/matrix-ii-lite/front.webp",
+    "/images/products/gnss/matrix-ii-lite/side.webp",
+    "/images/products/gnss/matrix-ii-lite/back.webp",
+    "/images/products/gnss/matrix-ii-lite/top.webp"
+  ],
+  "gnss/matrix-ii-non-uhf": [
+    "/images/products/gnss/matrix-ii-non-uhf/front.webp",
+    "/images/products/gnss/matrix-ii-non-uhf/side.webp",
+    "/images/products/gnss/matrix-ii-non-uhf/back.webp",
+    "/images/products/gnss/matrix-ii-non-uhf/top.webp"
+  ],
+  "gnss/matrix-iii": [
+    "/images/products/gnss/matrix-iii/front.webp",
+    "/images/products/gnss/matrix-iii/side.webp",
+    "/images/products/gnss/matrix-iii/back.webp",
+    "/images/products/gnss/matrix-iii/top.webp"
+  ],
+  "gnss/matrix-iii-lite": [
+    "/images/products/gnss/matrix-iii-lite/front.webp",
+    "/images/products/gnss/matrix-iii-lite/side.webp",
+    "/images/products/gnss/matrix-iii-lite/back.webp",
+    "/images/products/gnss/matrix-iii-lite/top.webp"
+  ],
+  "gnss/matrix-iii-non-uhf": [
+    "/images/products/gnss/matrix-iii-non-uhf/front.webp",
+    "/images/products/gnss/matrix-iii-non-uhf/side.webp",
+    "/images/products/gnss/matrix-iii-non-uhf/back.webp",
+    "/images/products/gnss/matrix-iii-non-uhf/top.webp"
+  ],
+  "gnss/matrix-iii-pro": [
+    "/images/products/gnss/matrix-iii-pro/front.webp",
+    "/images/products/gnss/matrix-iii-pro/side.webp",
+    "/images/products/gnss/matrix-iii-pro/back.webp",
+    "/images/products/gnss/matrix-iii-pro/top.webp"
+  ],
+  "gnss/matrix-mi-non-uhf": [
+    "/images/products/gnss/matrix-mi-non-uhf/front.webp",
+    "/images/products/gnss/matrix-mi-non-uhf/side.webp",
+    "/images/products/gnss/matrix-mi-non-uhf/back.webp",
+    "/images/products/gnss/matrix-mi-non-uhf/top.webp"
+  ],
+  "gnss/matrix-ultra": [
+    "/images/products/gnss/matrix-ultra/front.webp",
+    "/images/products/gnss/matrix-ultra/side.webp",
+    "/images/products/gnss/matrix-ultra/back.webp",
+    "/images/products/gnss/matrix-ultra/top.webp"
+  ],
+  "gnss/matrix-vi": [
+    "/images/products/gnss/matrix-vi/front.webp",
+    "/images/products/gnss/matrix-vi/side.webp",
+    "/images/products/gnss/matrix-vi/back.webp",
+    "/images/products/gnss/matrix-vi/top.webp"
+  ],
+  "gnss/matrix-x": [
+    "/images/products/gnss/matrix-x/front.webp",
+    "/images/products/gnss/matrix-x/side.webp",
+    "/images/products/gnss/matrix-x/back.webp",
+    "/images/products/gnss/matrix-x/top.webp"
+  ],
+  "gnss/matrix-x-non-uhf": [
+    "/images/products/gnss/matrix-x-non-uhf/front.webp",
+    "/images/products/gnss/matrix-x-non-uhf/side.webp",
+    "/images/products/gnss/matrix-x-non-uhf/back.webp",
+    "/images/products/gnss/matrix-x-non-uhf/top.webp"
+  ],
+  "gnss/netbox2": [
+    "/images/products/gnss/netbox2/front.webp"
+  ],
+  "hydro/alpha-ark": [
+    "/images/products/hydro/alpha-ark/front.webp"
+  ],
+  "hydro/alpha-ark-n": [
+    "/images/products/hydro/alpha-ark-n/front.webp",
+    "/images/products/hydro/alpha-ark-n/side.webp",
+    "/images/products/hydro/alpha-ark-n/back.webp",
+    "/images/products/hydro/alpha-ark-n/top.webp"
+  ],
+  "hydro/alpha-ark-s": [
+    "/images/products/hydro/alpha-ark-s/front.webp",
+    "/images/products/hydro/alpha-ark-s/side.webp",
+    "/images/products/hydro/alpha-ark-s/back.webp",
+    "/images/products/hydro/alpha-ark-s/top.webp"
+  ],
+  "hydro/alpha-es50": [
+    "/images/products/hydro/alpha-es50/front.webp",
+    "/images/products/hydro/alpha-es50/side.webp",
+    "/images/products/hydro/alpha-es50/back.webp",
+    "/images/products/hydro/alpha-es50/top.webp"
+  ],
+  "hydro/alpha-tg25": [
+    "/images/products/hydro/alpha-tg25/front.webp",
+    "/images/products/hydro/alpha-tg25/side.webp",
+    "/images/products/hydro/alpha-tg25/back.webp",
+    "/images/products/hydro/alpha-tg25/top.webp"
+  ],
+  "lidar/falcon-x": [
+    "/images/products/lidar/falcon-x/front.webp",
+    "/images/products/lidar/falcon-x/side.webp",
+    "/images/products/lidar/falcon-x/back.webp",
+    "/images/products/lidar/falcon-x/top.webp"
+  ],
+  "lidar/falcon-x-non-uhf": [
+    "/images/products/lidar/falcon-x-non-uhf/front.webp",
+    "/images/products/lidar/falcon-x-non-uhf/side.webp",
+    "/images/products/lidar/falcon-x-non-uhf/back.webp",
+    "/images/products/lidar/falcon-x-non-uhf/top.webp"
+  ],
+  "machine-control/alpha-dg1": [
+    "/images/products/machine-control/alpha-dg1/front.webp",
+    "/images/products/machine-control/alpha-dg1/side.webp",
+    "/images/products/machine-control/alpha-dg1/back.webp",
+    "/images/products/machine-control/alpha-dg1/top.webp"
+  ],
+  "monitoring/colibri-ii": [
+    "/images/products/monitoring/colibri-ii/front.webp",
+    "/images/products/monitoring/colibri-ii/side.webp",
+    "/images/products/monitoring/colibri-ii/back.webp",
+    "/images/products/monitoring/colibri-ii/top.webp"
+  ],
+  "reference/alphageo-lr9": [
+    "/images/products/reference/alphageo-lr9/front.webp",
+    "/images/products/reference/alphageo-lr9/side.webp",
+    "/images/products/reference/alphageo-lr9/back.webp",
+    "/images/products/reference/alphageo-lr9/top.webp"
+  ],
+  "total-stations-levels/alpha-al03": [
+    "/images/products/total-stations-levels/alpha-al03/front.webp",
+    "/images/products/total-stations-levels/alpha-al03/side.webp",
+    "/images/products/total-stations-levels/alpha-al03/back.webp",
+    "/images/products/total-stations-levels/alpha-al03/top.webp"
+  ],
+  "total-stations-levels/alpha-al32": [
+    "/images/products/total-stations-levels/alpha-al32/front.webp",
+    "/images/products/total-stations-levels/alpha-al32/side.webp",
+    "/images/products/total-stations-levels/alpha-al32/back.webp",
+    "/images/products/total-stations-levels/alpha-al32/top.webp"
+  ],
+  "total-stations-levels/alpha-al45": [
+    "/images/products/total-stations-levels/alpha-al45/front.webp",
+    "/images/products/total-stations-levels/alpha-al45/side.webp",
+    "/images/products/total-stations-levels/alpha-al45/back.webp",
+    "/images/products/total-stations-levels/alpha-al45/top.webp"
+  ],
+  "total-stations-levels/alpha-r1": [
+    "/images/products/total-stations-levels/alpha-r1/front.webp",
+    "/images/products/total-stations-levels/alpha-r1/side.webp",
+    "/images/products/total-stations-levels/alpha-r1/back.webp",
+    "/images/products/total-stations-levels/alpha-r1/top.webp"
+  ],
+  "total-stations-levels/alpha-x": [
+    "/images/products/total-stations-levels/alpha-x/front.webp",
+    "/images/products/total-stations-levels/alpha-x/side.webp",
+    "/images/products/total-stations-levels/alpha-x/back.webp",
+    "/images/products/total-stations-levels/alpha-x/top.webp"
+  ],
+  "total-stations-levels/alpha-x-plus": [
+    "/images/products/total-stations-levels/alpha-x-plus/front.webp",
+    "/images/products/total-stations-levels/alpha-x-plus/side.webp",
+    "/images/products/total-stations-levels/alpha-x-plus/back.webp",
+    "/images/products/total-stations-levels/alpha-x-plus/top.webp"
+  ],
+  "total-stations-levels/alpha-y": [
+    "/images/products/total-stations-levels/alpha-y/front.webp",
+    "/images/products/total-stations-levels/alpha-y/side.webp",
+    "/images/products/total-stations-levels/alpha-y/back.webp",
+    "/images/products/total-stations-levels/alpha-y/top.webp"
+  ],
+  "total-stations-levels/alpha-z": [
+    "/images/products/total-stations-levels/alpha-z/front.webp",
+    "/images/products/total-stations-levels/alpha-z/side.webp",
+    "/images/products/total-stations-levels/alpha-z/back.webp",
+    "/images/products/total-stations-levels/alpha-z/top.webp"
+  ]
+}
