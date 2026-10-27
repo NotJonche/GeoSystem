@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+:root {
+  /* GeoSystem brand colors */
+  --background: #f7f8f3;
+  --foreground: #243713;
+
+  --surface: #ffffff;
+  --primary: #243713;
+  --primary-light: #405817;
+  --accent: #748c39;
+
+  --muted: #52605a;
+  --border: #dce3d4;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-surface: var(--surface);
+  --color-primary: var(--primary);
+  --color-primary-light: var(--primary-light);
+  --color-accent: var(--accent);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), Arial, sans-serif;
+}
+
+::selection {
+  background: #dce8c0;
+  color: #243713;
+}
+
+:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+}
