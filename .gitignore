@@ -47,3 +47,4 @@ Desktop.ini
 
 # Additional logs
 *.log
+/public/brochures/
