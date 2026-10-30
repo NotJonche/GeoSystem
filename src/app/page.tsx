@@ -1,7 +1,14 @@
-
 import HeroBackground from "@/components/HeroBackground";
 import SiteFooter from "@/components/SiteFooter";
 import SiteHeader from "@/components/SiteHeader";
+import type { Metadata } from "next";
+export const metadata: Metadata = {
+  title: {
+    absolute: "GeoSystem | Shërbime Gjeodezike në Kosovë",
+  },
+  description:
+    "GeoSystem në Podujevë ofron shërbime gjeodezike, matje kadastrale dhe rilevime topografike për prona, parcela dhe terrene në Kosovë.",
+};
 
 export default function Home() {
   return (
@@ -23,21 +30,15 @@ export default function Home() {
 
               <h1 className="text-5xl font-semibold leading-[1.08] tracking-tight sm:text-6xl lg:text-7xl">
                 Saktësi në çdo
-                <span className="block text-[#748c39]">
-                  matje.
-                </span>
+                <span className="block text-[#748c39]">matje.</span>
               </h1>
 
               <p className="mt-8 max-w-xl text-lg leading-8 text-muted sm:text-xl">
-                Shërbime gjeodezike për prona,
-                parcela dhe terrene.
+                Shërbime gjeodezike për prona, parcela dhe terrene.
               </p>
 
               <div className="mt-12 flex items-center gap-5">
-                <span
-                  aria-hidden="true"
-                  className="h-px w-12 bg-accent"
-                />
+                <span aria-hidden="true" className="h-px w-12 bg-accent" />
 
                 <p className="text-sm tracking-wide text-muted">
                   Gjeodezi · Kadastër · Topografi
@@ -57,13 +58,12 @@ export default function Home() {
             </p>
 
             <h2 className="mt-4 max-w-2xl text-3xl font-semibold tracking-tight text-primary sm:text-4xl">
-              Shërbime gjeodezike dhe
-              mbështetje kadastrale.
+              Shërbime gjeodezike dhe mbështetje kadastrale.
             </h2>
 
             <p className="mt-6 max-w-2xl text-base leading-8 text-muted">
-              GeoSystem është kompani që operon në Kosovë në
-              fushën e gjeodezisë dhe shërbimeve kadastrale.
+              GeoSystem është kompani që operon në Kosovë në fushën e gjeodezisë
+              dhe shërbimeve kadastrale.
             </p>
           </div>
         </section>

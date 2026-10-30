@@ -30,12 +30,16 @@ export async function generateMetadata({
 
   if (!service) {
     return {
-      title: "Shërbimi nuk u gjet | GeoSystem",
+      title: "Shërbimi nuk u gjet",
+      robots: {
+        index: false,
+        follow: false,
+      },
     };
   }
 
   return {
-    title: `${service.title} | GeoSystem`,
+    title: service.title,
     description: service.description,
   };
 }

@@ -8,8 +8,9 @@ import ServicesTimeline from "@/components/ServicesTimeline";
 import { services } from "@/data/services";
 
 export const metadata: Metadata = {
-  title: "Shërbimet | GeoSystem",
-  description: "Shërbimet gjeodezike dhe kadastrale të GeoSystem në Kosovë.",
+  title: "Shërbimet",
+  description:
+    "Njihuni me shërbimet gjeodezike të GeoSystem në Kosovë: matje kadastrale, rilevime topografike, përcaktim kufijsh, ndarje parcelash dhe më shumë.",
 };
 
 export default function ServicesPage() {

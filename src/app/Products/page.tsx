@@ -9,9 +9,9 @@ import { publishedProducts } from "@/data/products";
 import { productCategories } from "@/data/productCategories";
 
 export const metadata: Metadata = {
-  title: "Produktet | GeoSystem",
+  title: "Produktet",
   description:
-    "Pajisje profesionale për matje gjeodezike, GNSS/RTK, LiDAR, stacione totale dhe më shumë.",
+    "Eksploroni katalogun e pajisjeve gjeodezike të GeoSystem: GNSS/RTK, LiDAR, stacione totale dhe pajisje të tjera. Kërkoni ofertë për produktet që ju interesojnë.",
 };
 
 export default function ProductsPage() {

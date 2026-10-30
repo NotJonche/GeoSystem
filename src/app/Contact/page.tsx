@@ -5,7 +5,7 @@ import SiteFooter from "@/components/SiteFooter";
 import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Kontakt | GeoSystem",
+  title: "Kontakt",
   description:
     "Kontaktoni GeoSystem në Podujevë për shërbime gjeodezike dhe kadastrale.",
 };

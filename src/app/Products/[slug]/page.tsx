@@ -23,16 +23,21 @@ export async function generateMetadata({
   params,
 }: ProductPageProps): Promise<Metadata> {
   const { slug } = await params;
+
   const product = getPublishedProductBySlug(slug);
 
   if (!product) {
     return {
-      title: "Produkti nuk u gjet | GeoSystem",
+      title: "Produkti nuk u gjet",
+      robots: {
+        index: false,
+        follow: false,
+      },
     };
   }
 
   return {
-    title: `${product.name} | GeoSystem`,
+    title: product.name,
     description: product.description,
   };
 }
