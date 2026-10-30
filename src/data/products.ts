@@ -1,5 +1,10 @@
 import { getProductCategory } from "@/data/productCategories";
 import generatedProductImages from "@/data/productImages.generated.json";
+import productContentData from "@/data/productContent.json";
+
+// ==========================================
+// TYPES
+// ==========================================
 
 export type Product = {
   slug: string;
@@ -27,7 +32,27 @@ type ProductEntry = {
   published?: boolean;
 };
 
-// Map catalog category IDs to actual image folder names.
+type ProductContentEntry = {
+  slug: string;
+  content?: {
+    sq?: {
+      name?: string;
+      shortDescription?: string;
+      description?: string;
+      features?: string[];
+    };
+  };
+  specifications?: {
+    key: string;
+    value: string;
+  }[];
+  researchStatus?: string;
+};
+
+// ==========================================
+// AUTOMATIC PRODUCT IMAGES
+// ==========================================
+
 const productImageFolders: Record<string, string> = {
   "gnss-rtk": "gnss",
   lidar: "lidar",
@@ -41,11 +66,8 @@ const productImageFolders: Record<string, string> = {
   accessories: "accessories",
 };
 
-// Static JSON can safely be imported by server and client code.
-// No Node.js filesystem access happens in the browser.
 const productImageManifest: Record<string, string[]> = generatedProductImages;
 
-// Returns ALL discovered photographs for a product.
 function getDefaultProductImages(entry: ProductEntry): string[] {
   const folder = productImageFolders[entry.categoryId];
 
@@ -58,12 +80,153 @@ function getDefaultProductImages(entry: ProductEntry): string[] {
   return productImageManifest[key] ?? [];
 }
 
+// ==========================================
+// ALBANIAN SPECIFICATION LABELS
+// ==========================================
+
+const specificationLabels: Record<string, string> = {
+  gnssChannels: "Kanalet GNSS",
+  gnssSignals: "Sinjalet GNSS",
+  satelliteSystems: "Sistemet satelitore",
+
+  laserAdjustment: "Rregullimi i laserit",
+  laserRange: "Distanca e laserit",
+  laserAccuracy: "Saktësia e laserit",
+
+  imuTiltCompensation: "Kompensimi i pjerrësisë IMU",
+  tiltAccuracy: "Saktësia e kompensimit të pjerrësisë",
+
+  camera: "Kamera",
+  cameraResolution: "Rezolucioni i kamerës",
+  display: "Ekrani",
+  screenSize: "Madhësia e ekranit",
+  screenResolution: "Rezolucioni i ekranit",
+
+  internalStorage: "Memoria e brendshme",
+  memory: "Memoria",
+  storage: "Hapësira e ruajtjes",
+
+  battery: "Bateria",
+  batteryCapacity: "Kapaciteti i baterisë",
+  batteryLife: "Kohëzgjatja e baterisë",
+  operatingTime: "Koha e funksionimit",
+  chargingTime: "Koha e karikimit",
+
+  rtkHorizontalAccuracy: "Saktësia RTK horizontale",
+  rtkVerticalAccuracy: "Saktësia RTK vertikale",
+  staticHorizontalAccuracy: "Saktësia statike horizontale",
+  staticVerticalAccuracy: "Saktësia statike vertikale",
+  positioningAccuracy: "Saktësia e pozicionimit",
+
+  ipRating: "Klasa e mbrojtjes",
+  protectionRating: "Klasa e mbrojtjes",
+  operatingTemperature: "Temperatura e funksionimit",
+
+  weight: "Pesha",
+  dimensions: "Dimensionet",
+
+  operatingSystem: "Sistemi operativ",
+  processor: "Procesori",
+
+  bluetooth: "Bluetooth",
+  wifi: "Wi-Fi",
+  cellular: "Lidhja celulare",
+  mobileNetwork: "Rrjeti mobil",
+  radio: "Radio",
+  radioFrequency: "Frekuenca e radios",
+  transmitterPower: "Fuqia e transmetimit",
+
+  telescopeMagnification: "Zmadhimi i teleskopit",
+  angularAccuracy: "Saktësia këndore",
+  distanceAccuracy: "Saktësia e distancës",
+  measuringRange: "Distanca e matjes",
+
+  scanRate: "Shpejtësia e skanimit",
+  scanRange: "Distanca e skanimit",
+  pointCloudAccuracy: "Saktësia e resë së pikave",
+};
+
+function getSpecificationLabel(key: string): string {
+  return specificationLabels[key] ?? key;
+}
+
+// ==========================================
+// PRODUCT CONTENT FROM JSON
+// ==========================================
+
+// The JSON contains sq and en content.
+// For now, GeoSystem displays ONLY Albanian.
+const contentEntries = productContentData.products as ProductContentEntry[];
+
+const contentBySlug = new Map(contentEntries.map((item) => [item.slug, item]));
+
+// These statuses contain usable content.
+// Brochure-based drafts still require final
+// factual review before production publishing.
+const allowedContentStatuses = new Set([
+  "existing_content",
+  "draft_from_brochure",
+  "verified",
+]);
+
+function getAlbanianProductContent(slug: string): ProductContentEntry | null {
+  const item = contentBySlug.get(slug);
+
+  if (!item) {
+    return null;
+  }
+
+  if (!allowedContentStatuses.has(item.researchStatus ?? "")) {
+    return null;
+  }
+
+  return item;
+}
+
+function getAlbanianSpecifications(
+  entries: ProductContentEntry["specifications"],
+): Record<string, string> {
+  if (!entries?.length) {
+    return {};
+  }
+
+  const result: Record<string, string> = {};
+
+  for (const specification of entries) {
+    const key = specification.key.trim();
+    const value = specification.value.trim();
+
+    if (!key || !value) {
+      continue;
+    }
+
+    const label = getSpecificationLabel(key);
+
+    result[label] = value;
+  }
+
+  return result;
+}
+
+// ==========================================
+// PRODUCT CREATION
+// ==========================================
+
 function createProduct(entry: ProductEntry): Product {
   const category = getProductCategory(entry.categoryId);
 
   if (!category) {
     throw new Error(`Unknown product category: ${entry.categoryId}`);
   }
+
+  const researchedContent = getAlbanianProductContent(entry.slug);
+
+  const albanianDescription =
+    researchedContent?.content?.sq?.description?.trim() ?? "";
+
+  const researchedSpecifications = getAlbanianSpecifications(
+    researchedContent?.specifications,
+  );
 
   return {
     slug: entry.slug,
@@ -73,21 +236,36 @@ function createProduct(entry: ProductEntry): Product {
     categoryId: entry.categoryId,
     category: category.name,
 
+    // Existing description gets priority.
+    // Otherwise, use researched Albanian text.
     description:
       entry.description ??
-      "Për më shumë informacione dhe specifikime teknike, kontaktoni GeoSystem.",
+      (albanianDescription ||
+        "Për më shumë informacione dhe specifikime teknike, kontaktoni GeoSystem."),
 
+    // Internal manufacturer reference.
     sourceUrl: entry.sourceUrl ?? category.manufacturerUrl,
 
-    // Automatically loads front, side, back, top, etc.
+    // All discovered photographs:
+    // front, side, back, top, etc.
     images: entry.images ?? getDefaultProductImages(entry),
 
-    specifications: entry.specifications ?? {},
+    // Existing specifications override researched
+    // values when the same Albanian label exists.
+    specifications: {
+      ...researchedSpecifications,
+      ...entry.specifications,
+    },
 
     availability: entry.availability ?? "on-request",
+
     published: entry.published ?? true,
   };
 }
+
+// ==========================================
+// PRODUCT CATALOG — 44 PRODUCTS
+// ==========================================
 
 const entries: ProductEntry[] = [
   // ==========================================
@@ -105,6 +283,7 @@ const entries: ProductEntry[] = [
     name: "Matrix X",
     categoryId: "gnss-rtk",
 
+    // Preserve our existing Matrix X description.
     description:
       "Matrix X është marrës profesional GNSS/RTK me laser " +
       "automatik të rregullueshëm, kamerë HD 5 MP, " +
@@ -117,6 +296,7 @@ const entries: ProductEntry[] = [
     sourceUrl:
       "https://www.alphageo-info.com/product/the-industry-s-first-automatic-laser-gnss-receiver",
 
+    // Preserve all 15 existing specifications.
     specifications: {
       "Kanalet GNSS": "1408",
       "Rregullimi automatik i laserit": "75°",
@@ -141,53 +321,61 @@ const entries: ProductEntry[] = [
     name: "Matrix Ultra",
     categoryId: "gnss-rtk",
   },
+
   {
     slug: "matrix-vi",
     name: "Matrix VI",
     categoryId: "gnss-rtk",
   },
+
   {
     slug: "matrix-iii",
     name: "Matrix III",
     categoryId: "gnss-rtk",
   },
+
   {
     slug: "matrix-iii-lite",
     name: "Matrix III Lite",
     categoryId: "gnss-rtk",
   },
+
   {
     slug: "matrix-iii-pro",
     name: "Matrix III Pro",
     categoryId: "gnss-rtk",
   },
+
   {
     slug: "matrix-ii",
     name: "Matrix II",
     categoryId: "gnss-rtk",
   },
+
   {
     slug: "l100-pro-plus",
     name: "L100 PRO+",
     categoryId: "gnss-rtk",
   },
+
   {
     slug: "l100-pro",
     name: "L100 PRO",
     categoryId: "gnss-rtk",
   },
+
   {
     slug: "l2-plus",
     name: "L2 Plus",
     categoryId: "gnss-rtk",
   },
+
   {
     slug: "geopuls",
     name: "GeoPuls",
     categoryId: "gnss-rtk",
   },
 
-  // One-photo product: no gallery navigation.
   {
     slug: "netbox2",
     name: "NetBOX2",
@@ -199,26 +387,31 @@ const entries: ProductEntry[] = [
     name: "Matrix II Lite",
     categoryId: "gnss-rtk",
   },
+
   {
     slug: "l300",
     name: "L300",
     categoryId: "gnss-rtk",
   },
+
   {
     slug: "matrix-x-non-uhf",
     name: "Matrix X (non-UHF)",
     categoryId: "gnss-rtk",
   },
+
   {
     slug: "matrix-mi-non-uhf",
     name: "Matrix Mi (non-UHF)",
     categoryId: "gnss-rtk",
   },
+
   {
     slug: "matrix-iii-non-uhf",
     name: "Matrix III (non-UHF)",
     categoryId: "gnss-rtk",
   },
+
   {
     slug: "matrix-ii-non-uhf",
     name: "Matrix II (non-UHF)",
@@ -234,6 +427,7 @@ const entries: ProductEntry[] = [
     name: "Falcon X",
     categoryId: "lidar",
   },
+
   {
     slug: "falcon-x-non-uhf",
     name: "Falcon X (non-UHF)",
@@ -249,36 +443,43 @@ const entries: ProductEntry[] = [
     name: "ALPHA R1",
     categoryId: "total-stations-levels",
   },
+
   {
     slug: "alpha-al03",
     name: "ALPHA AL03",
     categoryId: "total-stations-levels",
   },
+
   {
     slug: "alpha-y",
     name: "ALPHA Y",
     categoryId: "total-stations-levels",
   },
+
   {
     slug: "alpha-x-plus",
     name: "ALPHA X+",
     categoryId: "total-stations-levels",
   },
+
   {
     slug: "alpha-x",
     name: "ALPHA X",
     categoryId: "total-stations-levels",
   },
+
   {
     slug: "alpha-z",
     name: "ALPHA Z",
     categoryId: "total-stations-levels",
   },
+
   {
     slug: "alpha-al32",
     name: "ALPHA AL32",
     categoryId: "total-stations-levels",
   },
+
   {
     slug: "alpha-al45",
     name: "ALPHA AL45",
@@ -295,7 +496,6 @@ const entries: ProductEntry[] = [
     categoryId: "hydro",
   },
 
-  // One-photo product.
   {
     slug: "alpha-ark",
     name: "ALPHA ARK",
@@ -307,11 +507,13 @@ const entries: ProductEntry[] = [
     name: "ALPHA ARK S",
     categoryId: "hydro",
   },
+
   {
     slug: "alpha-tg25",
     name: "ALPHA TG25",
     categoryId: "hydro",
   },
+
   {
     slug: "alpha-es50",
     name: "ALPHA ES50",
@@ -327,13 +529,13 @@ const entries: ProductEntry[] = [
     name: "GYRO 70",
     categoryId: "geophysical",
   },
+
   {
     slug: "alpha-dt3",
     name: "ALPHA DT3",
     categoryId: "geophysical",
   },
 
-  // One-photo product.
   {
     slug: "alpha-d200",
     name: "Alpha D200",
@@ -359,6 +561,7 @@ const entries: ProductEntry[] = [
     name: "A-Tab",
     categoryId: "controllers",
   },
+
   {
     slug: "s60iii",
     name: "S60III",
@@ -394,6 +597,7 @@ const entries: ProductEntry[] = [
     name: "HX-DU8602T",
     categoryId: "accessories",
   },
+
   {
     slug: "hx-du8616d",
     name: "HX-DU8616D",
@@ -401,20 +605,24 @@ const entries: ProductEntry[] = [
   },
 ];
 
+// ==========================================
+// PUBLIC EXPORTS
+// ==========================================
+
 // All products in the internal catalog.
 export const products: Product[] = entries.map(createProduct);
 
-// Only published products are visible to customers.
+// Only published products appear on the website.
 export const publishedProducts = products.filter(
   (product) => product.published,
 );
 
-// Internal product lookup.
-export function getProductBySlug(slug: string) {
+// Internal lookup.
+export function getProductBySlug(slug: string): Product | undefined {
   return products.find((product) => product.slug === slug);
 }
 
-// Public product lookup.
-export function getPublishedProductBySlug(slug: string) {
+// Public lookup.
+export function getPublishedProductBySlug(slug: string): Product | undefined {
   return publishedProducts.find((product) => product.slug === slug);
 }

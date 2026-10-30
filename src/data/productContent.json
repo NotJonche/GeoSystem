@@ -1,0 +1,2667 @@
+{
+  "schemaVersion": 1,
+  "products": [
+    {
+      "slug": "matrix-dm",
+      "manufacturer": "AlphaGeo",
+      "categoryId": "gnss-rtk",
+      "source": {
+        "productUrl": null,
+        "brochureFile": "Matrix-DM.pdf",
+        "verifiedFrom": "official_brochure_supplied_by_user"
+      },
+      "content": {
+        "sq": {
+          "name": "Matrix DM",
+          "shortDescription": "Marrës GNSS me dy laserë për matje të pikave në terren dhe objekteve.",
+          "description": "Matrix DM është marrës GNSS i pajisur me dy laserë për skenarë të ndryshëm matjeje, duke përfshirë pika në tokë, mure dhe pjesë të objekteve që janë të vështira për t’u matur me shufër tradicionale. Broshura përshkruan gjithashtu kamerë ndihmëse dhe teknologji IMU për punë në terren.",
+          "features": [
+            "Dy laserë për skenarë të ndryshëm matjeje",
+            "Kamerë ndihmëse",
+            "IMU për matje në terren"
+          ]
+        }
+      },
+      "specifications": [
+        {
+          "key": "Kanalet GNSS",
+          "value": "1408"
+        },
+        {
+          "key": "Kamera",
+          "value": "5 MP HD"
+        },
+        {
+          "key": "Memoria e brendshme",
+          "value": "32 GB"
+        },
+        {
+          "key": "Kapaciteti i baterisë",
+          "value": "7000 mAh"
+        },
+        {
+          "key": "Kompensimi i pjerrësisë IMU",
+          "value": "0–120°"
+        },
+        {
+          "key": "Nisja e ftohtë",
+          "value": "<60 s"
+        },
+        {
+          "key": "Nisja e ngrohtë",
+          "value": "<15 s"
+        },
+        {
+          "key": "Saktësia RTK horizontale",
+          "value": "8 mm + 1 ppm RMS"
+        },
+        {
+          "key": "Saktësia RTK vertikale",
+          "value": "15 mm + 1 ppm RMS"
+        },
+        {
+          "key": "Saktësia statike horizontale",
+          "value": "2.5 mm + 0.5 ppm RMS"
+        },
+        {
+          "key": "Saktësia statike vertikale",
+          "value": "5 mm + 0.5 ppm RMS"
+        },
+        {
+          "key": "Klasa e mbrojtjes",
+          "value": "IP67"
+        },
+        {
+          "key": "Pesha",
+          "value": "985 g (pa bateri)"
+        },
+        {
+          "key": "Dimensionet",
+          "value": "128 × 128 × 130 mm (pa bateri)"
+        },
+        {
+          "key": "Temperatura e funksionimit",
+          "value": "−40°C deri +75°C"
+        },
+        {
+          "key": "Bluetooth",
+          "value": "5.2"
+        },
+        {
+          "key": "Wi-Fi",
+          "value": "802.11 b/g"
+        },
+        {
+          "key": "Kohëzgjatja e baterisë",
+          "value": "Rover: 15 orë; Base: 9 orë; Static: 18 orë"
+        },
+        {
+          "key": "Distanca e laserit",
+          "value": "Laser anësor: deri 120 m në ambient të brendshëm; laser poshtë: deri 30 m"
+        },
+        {
+          "key": "Klasa e laserit",
+          "value": "3R"
+        },
+        {
+          "key": "Frekuenca e pozicionimit",
+          "value": "1–50 Hz"
+        },
+        {
+          "key": "Sistemi operativ",
+          "value": "Linux"
+        },
+        {
+          "key": "Inicializimi RTK",
+          "value": "<5 s"
+        }
+      ],
+      "researchStatus": "draft_from_brochure",
+      "specificationsSource": "brochure_pdf",
+      "technicalReviewStatus": "partial_checked_against_brochure"
+    },
+    {
+      "slug": "matrix-x",
+      "manufacturer": "AlphaGeo",
+      "categoryId": "gnss-rtk",
+      "source": {
+        "productUrl": "https://www.alphageo-info.com/product/the-industry-s-first-automatic-laser-gnss-receiver",
+        "brochureFile": "MatrixX.pdf",
+        "verifiedFrom": "official_brochure_supplied_by_user"
+      },
+      "content": {
+        "sq": {
+          "name": "Matrix X",
+          "shortDescription": "Marrës profesional GNSS/RTK me laser automatik dhe AR.",
+          "description": "Matrix X është marrës profesional GNSS/RTK me laser automatik të rregullueshëm, kamerë HD 5 MP, kompensim të pjerrësisë me IMU dhe funksion piketimi me realitet të shtuar (AR). Laseri mund të rregullohet për matje të pikave në terren pa ndryshuar vazhdimisht pozicionin e marrësit.",
+          "features": [
+            "Laser automatik i rregullueshëm",
+            "Kamerë HD 5 MP",
+            "IMU dhe piketim AR"
+          ]
+        }
+      },
+      "specifications": [
+        {
+          "key": "Kanalet GNSS",
+          "value": "1408"
+        },
+        {
+          "key": "Rregullimi i laserit",
+          "value": "75°"
+        },
+        {
+          "key": "Kompensimi i pjerrësisë IMU",
+          "value": "0–120°"
+        },
+        {
+          "key": "Kamera",
+          "value": "5 MP HD"
+        },
+        {
+          "key": "Ekrani",
+          "value": "1.47 in HD"
+        },
+        {
+          "key": "Memoria e brendshme",
+          "value": "32 GB"
+        },
+        {
+          "key": "Kapaciteti i baterisë",
+          "value": "7000 mAh"
+        },
+        {
+          "key": "Saktësia RTK horizontale",
+          "value": "8 mm + 1 ppm RMS"
+        },
+        {
+          "key": "Saktësia RTK vertikale",
+          "value": "15 mm + 1 ppm RMS"
+        },
+        {
+          "key": "Klasa e mbrojtjes",
+          "value": "IP67"
+        },
+        {
+          "key": "Pesha",
+          "value": "1.3 kg"
+        },
+        {
+          "key": "Dimensionet",
+          "value": "128 × 128 × 90 mm"
+        },
+        {
+          "key": "Sistemi operativ",
+          "value": "Linux"
+        },
+        {
+          "key": "Bluetooth",
+          "value": "5.2"
+        },
+        {
+          "key": "Wi-Fi",
+          "value": "802.11 b/g"
+        }
+      ],
+      "researchStatus": "existing_content",
+      "technicalReviewStatus": "existing_site_specifications"
+    },
+    {
+      "slug": "matrix-ultra",
+      "manufacturer": "AlphaGeo",
+      "categoryId": "gnss-rtk",
+      "source": {
+        "productUrl": null,
+        "brochureFile": "Matrix-Ultra.pdf",
+        "verifiedFrom": "official_brochure_supplied_by_user"
+      },
+      "content": {
+        "sq": {
+          "name": "Matrix Ultra",
+          "shortDescription": "Marrës GNSS për përdorim si stacion bazë",
+          "description": "Matrix Ultra është marrës GNSS i orientuar për përdorim si stacion bazë në punime gjeodezike. Pajisja mbështet organizimin e matjeve dhe transmetimin e korrigjimeve për marrësit e terrenit.",
+          "features": [
+            "Marrës GNSS për stacion bazë",
+            "Përdorim në matje gjeodezike"
+          ]
+        }
+      },
+      "specifications": [
+        {
+          "key": "Kanalet GNSS",
+          "value": "1408 (për variantin UM980)"
+        },
+        {
+          "key": "Nisja e ftohtë",
+          "value": "<60 s"
+        },
+        {
+          "key": "Nisja e ngrohtë",
+          "value": "<15 s"
+        },
+        {
+          "key": "Saktësia RTK horizontale",
+          "value": "8 mm + 1 ppm RMS"
+        },
+        {
+          "key": "Saktësia RTK vertikale",
+          "value": "15 mm + 1 ppm RMS"
+        },
+        {
+          "key": "Saktësia statike horizontale",
+          "value": "2.5 mm + 0.5 ppm RMS"
+        },
+        {
+          "key": "Saktësia statike vertikale",
+          "value": "5 mm + 0.5 ppm RMS"
+        },
+        {
+          "key": "Frekuenca e pozicionimit",
+          "value": "1–50 Hz"
+        }
+      ],
+      "researchStatus": "draft_from_brochure",
+      "specificationsSource": "brochure_pdf",
+      "technicalReviewStatus": "partial_checked_against_brochure"
+    },
+    {
+      "slug": "matrix-vi",
+      "manufacturer": "AlphaGeo",
+      "categoryId": "gnss-rtk",
+      "source": {
+        "productUrl": null,
+        "brochureFile": "Matrix-VI.pdf",
+        "verifiedFrom": "official_brochure_supplied_by_user"
+      },
+      "content": {
+        "sq": {
+          "name": "Matrix VI",
+          "shortDescription": "Marrës GNSS/RTK me funksione AR, vizuale dhe laser",
+          "description": "Matrix VI është marrës GNSS/RTK që kombinon funksione të realitetit të shtuar (AR), orientim vizual dhe matje me laser. Këto funksione synojnë të lehtësojnë piketimin dhe matjen e pikave në terren.",
+          "features": [
+            "Piketim AR",
+            "Orientim vizual",
+            "Matje me laser"
+          ]
+        }
+      },
+      "specifications": [
+        {
+          "key": "Kanalet GNSS",
+          "value": "1408"
+        },
+        {
+          "key": "Nisja e ftohtë",
+          "value": "<60 s"
+        },
+        {
+          "key": "Nisja e ngrohtë",
+          "value": "<15 s"
+        },
+        {
+          "key": "Saktësia RTK horizontale",
+          "value": "8 mm + 1 ppm RMS"
+        },
+        {
+          "key": "Saktësia RTK vertikale",
+          "value": "15 mm + 1 ppm RMS"
+        },
+        {
+          "key": "Saktësia statike horizontale",
+          "value": "2.5 mm + 0.5 ppm RMS"
+        },
+        {
+          "key": "Saktësia statike vertikale",
+          "value": "5 mm + 0.5 ppm RMS"
+        },
+        {
+          "key": "Kapaciteti i baterisë",
+          "value": "7000 mAh"
+        },
+        {
+          "key": "Kohëzgjatja e baterisë",
+          "value": "Rover: 12 orë; Base: 7 orë; Static: 15 orë"
+        },
+        {
+          "key": "Bluetooth",
+          "value": "5.2"
+        },
+        {
+          "key": "Frekuenca e pozicionimit",
+          "value": "1–50 Hz"
+        }
+      ],
+      "researchStatus": "draft_from_brochure",
+      "specificationsSource": "brochure_pdf",
+      "technicalReviewStatus": "partial_checked_against_brochure"
+    },
+    {
+      "slug": "matrix-iii",
+      "manufacturer": "AlphaGeo",
+      "categoryId": "gnss-rtk",
+      "source": {
+        "productUrl": null,
+        "brochureFile": "Matrix-III.pdf",
+        "verifiedFrom": "official_brochure_supplied_by_user"
+      },
+      "content": {
+        "sq": {
+          "name": "Matrix III",
+          "shortDescription": "Marrës GNSS me laser në distancë të gjatë dhe piketim AR.",
+          "description": "Matrix III kombinon matjen GNSS me një modul laseri për distanca deri në 100 metra dhe funksione piketimi me realitet të shtuar (AR). Pajisja është projektuar për të ndihmuar në matjen dhe identifikimin e pikave në situata ku qasja direkte është e vështirë.",
+          "features": [
+            "Laser deri në 100 m",
+            "Piketim me AR",
+            "Matje e pikave me qasje të vështirë"
+          ]
+        }
+      },
+      "specifications": [
+        {
+          "key": "Distanca e laserit",
+          "value": "0.05–100 m"
+        },
+        {
+          "key": "Kanalet GNSS",
+          "value": "1408"
+        },
+        {
+          "key": "Kompensimi i pjerrësisë IMU",
+          "value": "0–120°"
+        },
+        {
+          "key": "Kamera",
+          "value": "5 MP HD"
+        },
+        {
+          "key": "Nisja e ftohtë",
+          "value": "<60 s"
+        },
+        {
+          "key": "Nisja e ngrohtë",
+          "value": "<15 s"
+        },
+        {
+          "key": "Saktësia RTK horizontale",
+          "value": "8 mm + 1 ppm RMS"
+        },
+        {
+          "key": "Saktësia RTK vertikale",
+          "value": "15 mm + 1 ppm RMS"
+        },
+        {
+          "key": "Saktësia statike horizontale",
+          "value": "2.5 mm + 0.5 ppm RMS"
+        },
+        {
+          "key": "Saktësia statike vertikale",
+          "value": "5 mm + 0.5 ppm RMS"
+        },
+        {
+          "key": "Kapaciteti i baterisë",
+          "value": "7000 mAh"
+        },
+        {
+          "key": "Memoria e brendshme",
+          "value": "64 GB"
+        },
+        {
+          "key": "Klasa e mbrojtjes",
+          "value": "IP68"
+        },
+        {
+          "key": "Pesha",
+          "value": "<0.8 kg"
+        },
+        {
+          "key": "Dimensionet",
+          "value": "129 × 129 × 99 mm"
+        },
+        {
+          "key": "Bluetooth",
+          "value": "5.2"
+        },
+        {
+          "key": "Wi-Fi",
+          "value": "802.11 b/g"
+        },
+        {
+          "key": "Frekuenca e pozicionimit",
+          "value": "1–50 Hz"
+        },
+        {
+          "key": "Kohëzgjatja e baterisë",
+          "value": "Rover: 12 orë; Base: 7 orë; Static: 15 orë"
+        },
+        {
+          "key": "Saktësia e laserit",
+          "value": "±2 mm + 100 × 10⁻⁶ × D (D në mm)"
+        }
+      ],
+      "researchStatus": "draft_from_brochure",
+      "specificationsSource": "brochure_pdf",
+      "technicalReviewStatus": "partial_checked_against_brochure"
+    },
+    {
+      "slug": "matrix-iii-lite",
+      "manufacturer": "AlphaGeo",
+      "categoryId": "gnss-rtk",
+      "source": {
+        "productUrl": null,
+        "brochureFile": "Matrix-III-Lite.pdf",
+        "verifiedFrom": "official_brochure_supplied_by_user"
+      },
+      "content": {
+        "sq": {
+          "name": "Matrix III Lite",
+          "shortDescription": "Marrës GNSS/RTK për matje të përditshme",
+          "description": "Matrix III Lite është marrës GNSS/RTK për matje gjeodezike në terren. Broshura thekson sensorin IMU, autonominë e baterisë dhe mbrojtjen e pajisjes për përdorim në kushte pune jashtë zyrës.",
+          "features": [
+            "Sensor IMU",
+            "Projektuar për punë në terren"
+          ]
+        }
+      },
+      "specifications": [
+        {
+          "key": "Kanalet GNSS",
+          "value": "1408"
+        },
+        {
+          "key": "Nisja e ftohtë",
+          "value": "<60 s"
+        },
+        {
+          "key": "Nisja e ngrohtë",
+          "value": "<15 s"
+        },
+        {
+          "key": "Saktësia RTK horizontale",
+          "value": "8 mm + 1 ppm RMS"
+        },
+        {
+          "key": "Saktësia RTK vertikale",
+          "value": "15 mm + 1 ppm RMS"
+        },
+        {
+          "key": "Saktësia statike horizontale",
+          "value": "2.5 mm + 0.5 ppm RMS"
+        },
+        {
+          "key": "Saktësia statike vertikale",
+          "value": "5 mm + 0.5 ppm RMS"
+        },
+        {
+          "key": "Kompensimi i pjerrësisë IMU",
+          "value": "0–120°"
+        },
+        {
+          "key": "Pesha",
+          "value": "0.73 kg"
+        },
+        {
+          "key": "Dimensionet",
+          "value": "129 × 129 × 99 mm"
+        },
+        {
+          "key": "Klasa e mbrojtjes",
+          "value": "IP67"
+        },
+        {
+          "key": "Frekuenca e pozicionimit",
+          "value": "1–20 Hz"
+        },
+        {
+          "key": "Frekuenca e përditësimit IMU",
+          "value": "400 Hz"
+        }
+      ],
+      "researchStatus": "draft_from_brochure",
+      "specificationsSource": "brochure_pdf",
+      "technicalReviewStatus": "partial_checked_against_brochure"
+    },
+    {
+      "slug": "matrix-iii-pro",
+      "manufacturer": "AlphaGeo",
+      "categoryId": "gnss-rtk",
+      "source": {
+        "productUrl": null,
+        "brochureFile": "Matrix-III-Pro.pdf",
+        "verifiedFrom": "official_brochure_supplied_by_user"
+      },
+      "content": {
+        "sq": {
+          "name": "Matrix III Pro",
+          "shortDescription": "Marrës GNSS me laser në distancë të gjatë dhe AR",
+          "description": "Matrix III Pro kombinon pozicionimin GNSS me matjen përmes laserit dhe piketimin me realitet të shtuar (AR). Është i orientuar për matje të pikave që janë të vështira për t’u arritur drejtpërdrejt me shufër.",
+          "features": [
+            "Matje me laser",
+            "Piketim AR",
+            "Punë në pika me qasje të vështirë"
+          ]
+        }
+      },
+      "specifications": [
+        {
+          "key": "Kanalet GNSS",
+          "value": "1680 / 1760 / 2050 (opsionale sipas konfigurimit)"
+        },
+        {
+          "key": "Nisja e ftohtë",
+          "value": "<60 s"
+        },
+        {
+          "key": "Nisja e ngrohtë",
+          "value": "<15 s"
+        },
+        {
+          "key": "Saktësia RTK horizontale",
+          "value": "8 mm + 1 ppm RMS"
+        },
+        {
+          "key": "Saktësia RTK vertikale",
+          "value": "15 mm + 1 ppm RMS"
+        },
+        {
+          "key": "Saktësia statike horizontale",
+          "value": "2.5 mm + 0.5 ppm RMS"
+        },
+        {
+          "key": "Saktësia statike vertikale",
+          "value": "5 mm + 0.5 ppm RMS"
+        },
+        {
+          "key": "Distanca e laserit",
+          "value": "0.05–100 m"
+        },
+        {
+          "key": "Kompensimi i pjerrësisë IMU",
+          "value": "0–120°"
+        },
+        {
+          "key": "Frekuenca e përditësimit IMU",
+          "value": "400 Hz"
+        },
+        {
+          "key": "Frekuenca e pozicionimit",
+          "value": "1–50 Hz"
+        }
+      ],
+      "researchStatus": "draft_from_brochure",
+      "specificationsSource": "brochure_pdf",
+      "technicalReviewStatus": "partial_checked_against_brochure"
+    },
+    {
+      "slug": "matrix-ii",
+      "manufacturer": "AlphaGeo",
+      "categoryId": "gnss-rtk",
+      "source": {
+        "productUrl": null,
+        "brochureFile": "Matrix-II.pdf",
+        "verifiedFrom": "official_brochure_supplied_by_user"
+      },
+      "content": {
+        "sq": {
+          "name": "Matrix II",
+          "shortDescription": "Marrës GNSS/RTK me laser dhe funksione AR",
+          "description": "Matrix II është marrës GNSS/RTK me funksione matjeje me laser dhe piketimi përmes realitetit të shtuar. Është projektuar për matje dhe piketim gjeodezik në terren.",
+          "features": [
+            "Matje me laser",
+            "Piketim AR",
+            "Përdorim në terren"
+          ]
+        }
+      },
+      "specifications": [],
+      "researchStatus": "draft_from_brochure",
+      "technicalReviewStatus": "requires_manual_table_review"
+    },
+    {
+      "slug": "l100-pro-plus",
+      "manufacturer": "AlphaGeo",
+      "categoryId": "gnss-rtk",
+      "source": {
+        "productUrl": null,
+        "brochureFile": null
+      },
+      "content": {
+        "sq": {
+          "name": "L100 PRO+",
+          "shortDescription": "",
+          "description": "",
+          "features": []
+        }
+      },
+      "specifications": [],
+      "researchStatus": "deferred_no_brochure",
+      "technicalReviewStatus": "deferred"
+    },
+    {
+      "slug": "l100-pro",
+      "manufacturer": "AlphaGeo",
+      "categoryId": "gnss-rtk",
+      "source": {
+        "productUrl": null,
+        "brochureFile": "L100-Pro.pdf",
+        "verifiedFrom": "official_brochure_supplied_by_user"
+      },
+      "content": {
+        "sq": {
+          "name": "L100 PRO",
+          "shortDescription": "Marrës GNSS/RTK kompakt për punime gjeodezike",
+          "description": "L100 PRO është marrës kompakt GNSS/RTK për pozicionim dhe matje gjeodezike. Dokumentacioni i produktit e paraqet si pajisje për punë praktike në terren, me përdorim për matje GNSS.",
+          "features": [
+            "Marrës kompakt GNSS/RTK",
+            "Matje gjeodezike"
+          ]
+        }
+      },
+      "specifications": [
+        {
+          "key": "Kanalet GNSS",
+          "value": "1408"
+        },
+        {
+          "key": "Nisja e ftohtë",
+          "value": "<60 s"
+        },
+        {
+          "key": "Nisja e ngrohtë",
+          "value": "<15 s"
+        },
+        {
+          "key": "Saktësia RTK horizontale",
+          "value": "8 mm + 1 ppm RMS"
+        },
+        {
+          "key": "Saktësia RTK vertikale",
+          "value": "15 mm + 1 ppm RMS"
+        },
+        {
+          "key": "Saktësia statike horizontale",
+          "value": "2.5 mm + 0.5 ppm RMS"
+        },
+        {
+          "key": "Saktësia statike vertikale",
+          "value": "5 mm + 0.5 ppm RMS"
+        },
+        {
+          "key": "Kapaciteti i baterisë",
+          "value": "7000 mAh"
+        },
+        {
+          "key": "Kohëzgjatja e baterisë",
+          "value": "Rover: 15 orë; Base: 7 orë; Static: 17 orë"
+        },
+        {
+          "key": "Pesha",
+          "value": "0.76 kg"
+        },
+        {
+          "key": "Klasa e mbrojtjes",
+          "value": "IP67"
+        },
+        {
+          "key": "Frekuenca e pozicionimit",
+          "value": "1–20 Hz"
+        }
+      ],
+      "researchStatus": "draft_from_brochure",
+      "specificationsSource": "brochure_pdf",
+      "technicalReviewStatus": "partial_checked_against_brochure"
+    },
+    {
+      "slug": "l2-plus",
+      "manufacturer": "AlphaGeo",
+      "categoryId": "gnss-rtk",
+      "source": {
+        "productUrl": null,
+        "brochureFile": "L2-Plus.pdf",
+        "verifiedFrom": "official_brochure_supplied_by_user"
+      },
+      "content": {
+        "sq": {
+          "name": "L2 Plus",
+          "shortDescription": "Marrës portativ GNSS/RTK me laser",
+          "description": "L2 Plus është marrës portativ GNSS/RTK me laser, i projektuar për matje në terren me pajisje kompakte. Matja me laser ndihmon në përcaktimin e pikave kur përdorimi i shufrës është i papërshtatshëm.",
+          "features": [
+            "Pajisje portative",
+            "Matje me laser"
+          ]
+        }
+      },
+      "specifications": [
+        {
+          "key": "Kanalet GNSS",
+          "value": "1408"
+        },
+        {
+          "key": "Nisja e ftohtë",
+          "value": "<60 s"
+        },
+        {
+          "key": "Nisja e ngrohtë",
+          "value": "<15 s"
+        },
+        {
+          "key": "Saktësia RTK horizontale",
+          "value": "8 mm + 1 ppm RMS"
+        },
+        {
+          "key": "Saktësia RTK vertikale",
+          "value": "15 mm + 1 ppm RMS"
+        },
+        {
+          "key": "Saktësia statike horizontale",
+          "value": "2.5 mm + 0.5 ppm RMS"
+        },
+        {
+          "key": "Saktësia statike vertikale",
+          "value": "5 mm + 0.5 ppm RMS"
+        },
+        {
+          "key": "Kapaciteti i baterisë",
+          "value": "2000 mAh"
+        },
+        {
+          "key": "Kohëzgjatja e baterisë",
+          "value": ">12 orë"
+        },
+        {
+          "key": "Pesha",
+          "value": "170 g"
+        },
+        {
+          "key": "Dimensionet",
+          "value": "120 × 61 × 41 mm"
+        },
+        {
+          "key": "Klasa e mbrojtjes",
+          "value": "IP67"
+        },
+        {
+          "key": "Bluetooth",
+          "value": "4.0"
+        },
+        {
+          "key": "Kompensimi i pjerrësisë IMU",
+          "value": "0–120°"
+        },
+        {
+          "key": "Frekuenca e përditësimit IMU",
+          "value": "400 Hz"
+        },
+        {
+          "key": "Saktësia e laserit",
+          "value": "±1 cm + 5 mm/m"
+        },
+        {
+          "key": "Frekuenca e pozicionimit",
+          "value": "1–50 Hz"
+        }
+      ],
+      "researchStatus": "draft_from_brochure",
+      "specificationsSource": "brochure_pdf",
+      "technicalReviewStatus": "partial_checked_against_brochure"
+    },
+    {
+      "slug": "geopuls",
+      "manufacturer": "AlphaGeo",
+      "categoryId": "gnss-rtk",
+      "source": {
+        "productUrl": null,
+        "brochureFile": "GeoPuls.pdf",
+        "verifiedFrom": "official_brochure_supplied_by_user"
+      },
+      "content": {
+        "sq": {
+          "name": "GeoPuls",
+          "shortDescription": "Marrës RTK portativ me laser",
+          "description": "GeoPuls është pajisje portative për matje RTK me funksion laseri. Formati doracak synon të lehtësojë matjen e pikave në terren, përfshirë situata ku përdorimi i shufrës tradicionale nuk është praktik.",
+          "features": [
+            "Marrës RTK doracak",
+            "Funksion laseri"
+          ]
+        }
+      },
+      "specifications": [
+        {
+          "key": "Kanalet GNSS",
+          "value": "1408"
+        },
+        {
+          "key": "Nisja e ftohtë",
+          "value": "<60 s"
+        },
+        {
+          "key": "Nisja e ngrohtë",
+          "value": "<15 s"
+        },
+        {
+          "key": "Saktësia RTK horizontale",
+          "value": "8 mm + 1 ppm RMS"
+        },
+        {
+          "key": "Saktësia RTK vertikale",
+          "value": "15 mm + 1 ppm RMS"
+        },
+        {
+          "key": "Saktësia statike horizontale",
+          "value": "2.5 mm + 0.5 ppm RMS"
+        },
+        {
+          "key": "Saktësia statike vertikale",
+          "value": "5 mm + 0.5 ppm RMS"
+        },
+        {
+          "key": "Kapaciteti i baterisë",
+          "value": "3350 mAh"
+        },
+        {
+          "key": "Kohëzgjatja e baterisë",
+          "value": ">12 orë"
+        },
+        {
+          "key": "Pesha",
+          "value": "300 g"
+        },
+        {
+          "key": "Dimensionet",
+          "value": "136.5 × 65 × 56 mm"
+        },
+        {
+          "key": "Klasa e mbrojtjes",
+          "value": "IP67"
+        },
+        {
+          "key": "Kompensimi i pjerrësisë IMU",
+          "value": "0–120°"
+        },
+        {
+          "key": "Frekuenca e përditësimit IMU",
+          "value": "400 Hz"
+        },
+        {
+          "key": "Frekuenca e pozicionimit",
+          "value": "1–50 Hz"
+        },
+        {
+          "key": "Saktësia e laserit",
+          "value": "±1 cm + 5 mm/m"
+        }
+      ],
+      "researchStatus": "draft_from_brochure",
+      "specificationsSource": "brochure_pdf",
+      "technicalReviewStatus": "partial_checked_against_brochure"
+    },
+    {
+      "slug": "netbox2",
+      "manufacturer": "AlphaGeo",
+      "categoryId": "gnss-rtk",
+      "source": {
+        "productUrl": null,
+        "brochureFile": "NetBox2.pdf",
+        "verifiedFrom": "official_brochure_supplied_by_user"
+      },
+      "content": {
+        "sq": {
+          "name": "NetBOX2",
+          "shortDescription": "Marrës GNSS kompakt për matje në terren",
+          "description": "NetBOX2 është marrës kompakt GNSS i projektuar për punë gjeodezike dhe pozicionim satelitor. Broshura e paraqet si zgjidhje të vogël e të transportueshme për matje në terren.",
+          "features": [
+            "Marrës GNSS kompakt",
+            "Përdorim në terren"
+          ]
+        }
+      },
+      "specifications": [
+        {
+          "key": "Kanalet GNSS",
+          "value": "1408"
+        },
+        {
+          "key": "Nisja e ftohtë",
+          "value": "<60 s"
+        },
+        {
+          "key": "Nisja e ngrohtë",
+          "value": "<15 s"
+        },
+        {
+          "key": "Saktësia RTK horizontale",
+          "value": "8 mm + 1 ppm RMS"
+        },
+        {
+          "key": "Saktësia RTK vertikale",
+          "value": "15 mm + 1 ppm RMS"
+        },
+        {
+          "key": "Saktësia statike horizontale",
+          "value": "2.5 mm + 0.5 ppm RMS"
+        },
+        {
+          "key": "Saktësia statike vertikale",
+          "value": "5 mm + 0.5 ppm RMS"
+        },
+        {
+          "key": "Kapaciteti i baterisë",
+          "value": "6800 mAh"
+        },
+        {
+          "key": "Frekuenca e pozicionimit",
+          "value": "1–50 Hz"
+        }
+      ],
+      "researchStatus": "draft_from_brochure",
+      "specificationsSource": "brochure_pdf",
+      "technicalReviewStatus": "partial_checked_against_brochure"
+    },
+    {
+      "slug": "matrix-ii-lite",
+      "manufacturer": "AlphaGeo",
+      "categoryId": "gnss-rtk",
+      "source": {
+        "productUrl": null,
+        "brochureFile": "Matrix-II-Lite.pdf",
+        "verifiedFrom": "official_brochure_supplied_by_user"
+      },
+      "content": {
+        "sq": {
+          "name": "Matrix II Lite",
+          "shortDescription": "Marrës GNSS/RTK kompakt",
+          "description": "Matrix II Lite është marrës GNSS/RTK për matje gjeodezike në terren. Broshura thekson kompensimin e pjerrësisë me IMU, autonominë e baterisë dhe mbrojtjen e pajisjes ndaj kushteve të jashtme.",
+          "features": [
+            "Kompensim i pjerrësisë me IMU",
+            "Përdorim në terren"
+          ]
+        }
+      },
+      "specifications": [
+        {
+          "key": "Kanalet GNSS",
+          "value": "1408"
+        },
+        {
+          "key": "Nisja e ftohtë",
+          "value": "<60 s"
+        },
+        {
+          "key": "Nisja e ngrohtë",
+          "value": "<15 s"
+        },
+        {
+          "key": "Saktësia RTK horizontale",
+          "value": "8 mm + 1 ppm RMS"
+        },
+        {
+          "key": "Saktësia RTK vertikale",
+          "value": "15 mm + 1 ppm RMS"
+        },
+        {
+          "key": "Saktësia statike horizontale",
+          "value": "2.5 mm + 0.5 ppm RMS"
+        },
+        {
+          "key": "Saktësia statike vertikale",
+          "value": "5 mm + 0.5 ppm RMS"
+        },
+        {
+          "key": "Pesha",
+          "value": "0.76 kg"
+        },
+        {
+          "key": "Klasa e mbrojtjes",
+          "value": "IP67"
+        },
+        {
+          "key": "Frekuenca e pozicionimit",
+          "value": "1–20 Hz"
+        },
+        {
+          "key": "Frekuenca e përditësimit IMU",
+          "value": "400 Hz"
+        },
+        {
+          "key": "Kompensimi i pjerrësisë IMU",
+          "value": "0–120°"
+        }
+      ],
+      "researchStatus": "draft_from_brochure",
+      "specificationsSource": "brochure_pdf",
+      "technicalReviewStatus": "partial_checked_against_brochure"
+    },
+    {
+      "slug": "l300",
+      "manufacturer": "AlphaGeo",
+      "categoryId": "gnss-rtk",
+      "source": {
+        "productUrl": null,
+        "brochureFile": "L300.pdf",
+        "verifiedFrom": "official_brochure_supplied_by_user"
+      },
+      "content": {
+        "sq": {
+          "name": "L300",
+          "shortDescription": "Marrës GNSS kompakt i gjeneratës së re",
+          "description": "L300 është marrës GNSS i projektuar për matje dhe pozicionim gjeodezik. Broshura e paraqet si pajisje kompakte për punë me GNSS në terren.",
+          "features": [
+            "Marrës GNSS kompakt",
+            "Përdorim gjeodezik"
+          ]
+        }
+      },
+      "specifications": [
+        {
+          "key": "Kanalet GNSS",
+          "value": "1408"
+        },
+        {
+          "key": "Nisja e ftohtë",
+          "value": "<60 s"
+        },
+        {
+          "key": "Nisja e ngrohtë",
+          "value": "<15 s"
+        },
+        {
+          "key": "Saktësia RTK horizontale",
+          "value": "8 mm + 1 ppm RMS"
+        },
+        {
+          "key": "Saktësia RTK vertikale",
+          "value": "15 mm + 1 ppm RMS"
+        },
+        {
+          "key": "Saktësia statike horizontale",
+          "value": "2.5 mm + 0.5 ppm RMS"
+        },
+        {
+          "key": "Saktësia statike vertikale",
+          "value": "5 mm + 0.5 ppm RMS"
+        },
+        {
+          "key": "Kapaciteti i baterisë",
+          "value": "6800 mAh"
+        },
+        {
+          "key": "Frekuenca e pozicionimit",
+          "value": "1–20 Hz"
+        }
+      ],
+      "researchStatus": "draft_from_brochure",
+      "specificationsSource": "brochure_pdf",
+      "technicalReviewStatus": "partial_checked_against_brochure"
+    },
+    {
+      "slug": "matrix-x-non-uhf",
+      "manufacturer": "AlphaGeo",
+      "categoryId": "gnss-rtk",
+      "source": {
+        "productUrl": null,
+        "brochureFile": "matrix-x-non-uhf.pdf",
+        "verifiedFrom": "official_brochure_supplied_by_user"
+      },
+      "content": {
+        "sq": {
+          "name": "Matrix X (non-UHF)",
+          "shortDescription": "Marrës GNSS me laser automatik, IMU dhe piketim AR, version pa UHF.",
+          "description": "Matrix X (non-UHF) është variant i marrësit GNSS me modul laseri të rregullueshëm në kënd 75°, teknologji IMU dhe piketim me realitet të shtuar (AR). Broshura përmend 1408 kanale GNSS, ekran 1.47 inç dhe memorie 32 GB. Ky është varianti i identifikuar si non-UHF.",
+          "features": [
+            "Laser i rregullueshëm 75°",
+            "Piketim AR",
+            "1408 kanale GNSS"
+          ]
+        }
+      },
+      "specifications": [
+        {
+          "key": "Kanalet GNSS",
+          "value": "1408"
+        },
+        {
+          "key": "Rregullimi i laserit",
+          "value": "75° (+30° deri −45°)"
+        },
+        {
+          "key": "Memoria e brendshme",
+          "value": "32 GB"
+        },
+        {
+          "key": "Ekrani",
+          "value": "1.47 in, 320 × 172"
+        },
+        {
+          "key": "Kapaciteti i baterisë",
+          "value": "7000 mAh"
+        },
+        {
+          "key": "Nisja e ftohtë",
+          "value": "<60 s"
+        },
+        {
+          "key": "Nisja e ngrohtë",
+          "value": "<15 s"
+        },
+        {
+          "key": "Saktësia RTK horizontale",
+          "value": "8 mm + 1 ppm RMS"
+        },
+        {
+          "key": "Saktësia RTK vertikale",
+          "value": "15 mm + 1 ppm RMS"
+        },
+        {
+          "key": "Saktësia statike horizontale",
+          "value": "2.5 mm + 0.5 ppm RMS"
+        },
+        {
+          "key": "Saktësia statike vertikale",
+          "value": "5 mm + 0.5 ppm RMS"
+        },
+        {
+          "key": "Kompensimi i pjerrësisë IMU",
+          "value": "0–120°"
+        },
+        {
+          "key": "Kamera",
+          "value": "5 MP HD"
+        },
+        {
+          "key": "Klasa e mbrojtjes",
+          "value": "IP67"
+        },
+        {
+          "key": "Pesha",
+          "value": "1 kg"
+        },
+        {
+          "key": "Dimensionet",
+          "value": "128 × 128 × 90 mm"
+        },
+        {
+          "key": "Bluetooth",
+          "value": "5.2"
+        },
+        {
+          "key": "Wi-Fi",
+          "value": "802.11 b/g"
+        },
+        {
+          "key": "Distanca e laserit",
+          "value": "0.05–120 m brenda; deri 100 m jashtë me qiell të vranët"
+        },
+        {
+          "key": "Kohëzgjatja e baterisë",
+          "value": "Rover: 12 orë; Base: 7 orë; Static: 15 orë"
+        },
+        {
+          "key": "Sistemi operativ",
+          "value": "Linux"
+        },
+        {
+          "key": "Frekuenca e pozicionimit",
+          "value": "1–50 Hz"
+        }
+      ],
+      "researchStatus": "draft_from_brochure",
+      "specificationsSource": "brochure_pdf",
+      "technicalReviewStatus": "partial_checked_against_brochure"
+    },
+    {
+      "slug": "matrix-mi-non-uhf",
+      "manufacturer": "AlphaGeo",
+      "categoryId": "gnss-rtk",
+      "source": {
+        "productUrl": null,
+        "brochureFile": "matrix-mi-non-uhf.pdf",
+        "verifiedFrom": "official_brochure_supplied_by_user"
+      },
+      "content": {
+        "sq": {
+          "name": "Matrix Mi (non-UHF)",
+          "shortDescription": "Marrës GNSS me laser dhe AR, variant pa UHF",
+          "description": "Matrix Mi (non-UHF) është variant i marrësit GNSS me funksione matjeje me laser dhe piketimi me realitet të shtuar (AR). Emërtimi non-UHF identifikon variantin pa radio UHF të integruar.",
+          "features": [
+            "Laser dhe AR",
+            "Variant non-UHF"
+          ]
+        }
+      },
+      "specifications": [
+        {
+          "key": "Kanalet GNSS",
+          "value": "1408"
+        },
+        {
+          "key": "Nisja e ftohtë",
+          "value": "<60 s"
+        },
+        {
+          "key": "Nisja e ngrohtë",
+          "value": "<15 s"
+        },
+        {
+          "key": "Saktësia RTK horizontale",
+          "value": "8 mm + 1 ppm RMS"
+        },
+        {
+          "key": "Saktësia RTK vertikale",
+          "value": "15 mm + 1 ppm RMS"
+        },
+        {
+          "key": "Saktësia statike horizontale",
+          "value": "2.5 mm + 0.5 ppm RMS"
+        },
+        {
+          "key": "Saktësia statike vertikale",
+          "value": "5 mm + 0.5 ppm RMS"
+        },
+        {
+          "key": "Kapaciteti i baterisë",
+          "value": "5000 mAh"
+        },
+        {
+          "key": "Kohëzgjatja e baterisë",
+          "value": "Rover: 9 orë; Base: 5 orë; Static: 12 orë"
+        },
+        {
+          "key": "Bluetooth",
+          "value": "5.2"
+        },
+        {
+          "key": "Frekuenca e pozicionimit",
+          "value": "1–20 Hz"
+        }
+      ],
+      "researchStatus": "draft_from_brochure",
+      "specificationsSource": "brochure_pdf",
+      "technicalReviewStatus": "partial_checked_against_brochure"
+    },
+    {
+      "slug": "matrix-iii-non-uhf",
+      "manufacturer": "AlphaGeo",
+      "categoryId": "gnss-rtk",
+      "source": {
+        "productUrl": null,
+        "brochureFile": "matrix-iii-non-uhf.pdf",
+        "verifiedFrom": "official_brochure_supplied_by_user"
+      },
+      "content": {
+        "sq": {
+          "name": "Matrix III (non-UHF)",
+          "shortDescription": "Marrës GNSS me laser dhe AR, variant pa UHF",
+          "description": "Matrix III (non-UHF) kombinon pozicionimin GNSS me matjen me laser në distancë dhe piketimin përmes realitetit të shtuar. Është varianti non-UHF i familjes Matrix III.",
+          "features": [
+            "Laser në distancë",
+            "Piketim AR",
+            "Variant non-UHF"
+          ]
+        }
+      },
+      "specifications": [
+        {
+          "key": "Kanalet GNSS",
+          "value": "1408"
+        },
+        {
+          "key": "Nisja e ftohtë",
+          "value": "<60 s"
+        },
+        {
+          "key": "Nisja e ngrohtë",
+          "value": "<15 s"
+        },
+        {
+          "key": "Saktësia RTK horizontale",
+          "value": "8 mm + 1 ppm RMS"
+        },
+        {
+          "key": "Saktësia RTK vertikale",
+          "value": "15 mm + 1 ppm RMS"
+        },
+        {
+          "key": "Saktësia statike horizontale",
+          "value": "2.5 mm + 0.5 ppm RMS"
+        },
+        {
+          "key": "Saktësia statike vertikale",
+          "value": "5 mm + 0.5 ppm RMS"
+        },
+        {
+          "key": "Kapaciteti i baterisë",
+          "value": "7000 mAh"
+        },
+        {
+          "key": "Kompensimi i pjerrësisë IMU",
+          "value": "0–120°"
+        },
+        {
+          "key": "Kamera",
+          "value": "5 MP"
+        },
+        {
+          "key": "Memoria e brendshme",
+          "value": "64 GB"
+        },
+        {
+          "key": "Klasa e mbrojtjes",
+          "value": "IP68"
+        },
+        {
+          "key": "Pesha",
+          "value": "<0.8 kg"
+        },
+        {
+          "key": "Dimensionet",
+          "value": "129 × 129 × 99 mm"
+        },
+        {
+          "key": "Bluetooth",
+          "value": "5.2"
+        },
+        {
+          "key": "Kohëzgjatja e baterisë",
+          "value": "Rover: 12 orë; Base: 7 orë; Static: 15 orë"
+        },
+        {
+          "key": "Distanca e laserit",
+          "value": "0.05–100 m"
+        },
+        {
+          "key": "Frekuenca e pozicionimit",
+          "value": "1–50 Hz"
+        }
+      ],
+      "researchStatus": "draft_from_brochure",
+      "specificationsSource": "brochure_pdf",
+      "technicalReviewStatus": "partial_checked_against_brochure"
+    },
+    {
+      "slug": "matrix-ii-non-uhf",
+      "manufacturer": "AlphaGeo",
+      "categoryId": "gnss-rtk",
+      "source": {
+        "productUrl": null,
+        "brochureFile": "matrix-ii-non-uhf.pdf",
+        "verifiedFrom": "official_brochure_supplied_by_user"
+      },
+      "content": {
+        "sq": {
+          "name": "Matrix II (non-UHF)",
+          "shortDescription": "Marrës GNSS/RTK me laser dhe AR, variant pa UHF",
+          "description": "Matrix II (non-UHF) është variant i marrësit GNSS me laser dhe funksione AR për matje e piketim. Dallohet nga modeli bazë përmes konfigurimit non-UHF.",
+          "features": [
+            "Matje me laser",
+            "Piketim AR",
+            "Variant non-UHF"
+          ]
+        }
+      },
+      "specifications": [],
+      "researchStatus": "draft_from_brochure",
+      "technicalReviewStatus": "requires_manual_table_review"
+    },
+    {
+      "slug": "falcon-x",
+      "manufacturer": "AlphaGeo",
+      "categoryId": "lidar",
+      "source": {
+        "productUrl": null,
+        "brochureFile": "falcon-x.pdf",
+        "verifiedFrom": "official_brochure_supplied_by_user"
+      },
+      "content": {
+        "sq": {
+          "name": "Falcon X",
+          "shortDescription": "Sistem hibrid matjeje RTK dhe SLAM me LiDAR",
+          "description": "Falcon X është sistem hibrid matjeje që kombinon GNSS/RTK, LiDAR dhe teknologjinë SLAM për mbledhjen e të dhënave hapësinore dhe krijimin e reve të pikave. Është i orientuar për dokumentim dhe skanim të mjediseve fizike.",
+          "features": [
+            "GNSS/RTK dhe LiDAR",
+            "Teknologji SLAM",
+            "Re pikash"
+          ]
+        }
+      },
+      "specifications": [
+        {
+          "key": "Kanalet GNSS",
+          "value": "1408"
+        },
+        {
+          "key": "Kompensimi i pjerrësisë IMU",
+          "value": "0–120°"
+        },
+        {
+          "key": "Kanalet e laserit",
+          "value": "40"
+        },
+        {
+          "key": "Distanca e skanimit",
+          "value": "0.1–40 m (10% reflektueshmëri); 0.1–70 m (80%)"
+        },
+        {
+          "key": "Shpejtësia e skanimit",
+          "value": "200000 pika/sekondë"
+        },
+        {
+          "key": "Frekuenca e skanimit",
+          "value": "10 Hz"
+        },
+        {
+          "key": "Gjatësia valore e laserit",
+          "value": "905 nm"
+        },
+        {
+          "key": "Klasa e laserit",
+          "value": "Klasa 1"
+        },
+        {
+          "key": "Frekuenca e pozicionimit",
+          "value": "1–50 Hz"
+        }
+      ],
+      "researchStatus": "draft_from_brochure",
+      "specificationsSource": "brochure_pdf",
+      "technicalReviewStatus": "partial_checked_against_brochure"
+    },
+    {
+      "slug": "falcon-x-non-uhf",
+      "manufacturer": "AlphaGeo",
+      "categoryId": "lidar",
+      "source": {
+        "productUrl": null,
+        "brochureFile": "falcon-x-non-uhf-version-2.pdf",
+        "verifiedFrom": "official_brochure_supplied_by_user"
+      },
+      "content": {
+        "sq": {
+          "name": "Falcon X (non-UHF)",
+          "shortDescription": "Sistem hibrid matjeje RTK dhe SLAM me LiDAR, version pa UHF.",
+          "description": "Falcon X (non-UHF) kombinon GNSS/RTK, LiDAR dhe teknologji SLAM për matje dhe gjenerim të reve të pikave. Broshura përshkruan dy mënyra operimi dhe përdorim në mjedise të jashtme dhe të brendshme. Ky është varianti i identifikuar si non-UHF.",
+          "features": [
+            "GNSS/RTK dhe LiDAR",
+            "Teknologji SLAM",
+            "Matje brenda dhe jashtë"
+          ]
+        }
+      },
+      "specifications": [
+        {
+          "key": "Kanalet GNSS",
+          "value": "1408"
+        },
+        {
+          "key": "Ekrani",
+          "value": "1.3 in HD, 240 × 240"
+        },
+        {
+          "key": "Kamera",
+          "value": "2 × 48 MP; kamera AR 5 MP"
+        },
+        {
+          "key": "Kanalet e laserit",
+          "value": "40"
+        },
+        {
+          "key": "Distanca e skanimit",
+          "value": "0.1–40 m (10% reflektueshmëri); 0.1–70 m (80%)"
+        },
+        {
+          "key": "Shpejtësia e skanimit",
+          "value": "200000 pika/sekondë"
+        },
+        {
+          "key": "Frekuenca e skanimit",
+          "value": "10 Hz"
+        },
+        {
+          "key": "Gjatësia valore e laserit",
+          "value": "905 nm"
+        },
+        {
+          "key": "Klasa e laserit",
+          "value": "Klasa 1"
+        },
+        {
+          "key": "Kompensimi i pjerrësisë IMU",
+          "value": "0–120°"
+        },
+        {
+          "key": "Memoria e brendshme",
+          "value": "256 GB (deri 512 GB)"
+        },
+        {
+          "key": "Klasa e mbrojtjes",
+          "value": "IP67"
+        },
+        {
+          "key": "Pesha",
+          "value": "1.8 kg"
+        },
+        {
+          "key": "Dimensionet",
+          "value": "Ø138 × 301 mm"
+        },
+        {
+          "key": "Kohëzgjatja e baterisë",
+          "value": "180 minuta SLAM; zakonisht 8 orë RTK"
+        },
+        {
+          "key": "Bluetooth",
+          "value": "5.2"
+        },
+        {
+          "key": "Wi-Fi",
+          "value": "802.11a/b/g/n/ac"
+        }
+      ],
+      "researchStatus": "draft_from_brochure",
+      "specificationsSource": "brochure_pdf",
+      "technicalReviewStatus": "partial_checked_against_brochure"
+    },
+    {
+      "slug": "alpha-r1",
+      "manufacturer": "AlphaGeo",
+      "categoryId": "total-stations-levels",
+      "source": {
+        "productUrl": null,
+        "brochureFile": "alpha-r1.pdf",
+        "verifiedFrom": "official_brochure_supplied_by_user"
+      },
+      "content": {
+        "sq": {
+          "name": "ALPHA R1",
+          "shortDescription": "Stacion total robotik për matje gjeodezike",
+          "description": "ALPHA R1 është stacion total robotik për matje dhe piketim gjeodezik. Kontrolli robotik mundëson drejtim dhe ndjekje të objektivit gjatë punës në terren, duke lehtësuar procesin e matjes.",
+          "features": [
+            "Stacion total robotik",
+            "Matje dhe piketim"
+          ]
+        }
+      },
+      "specifications": [
+        {
+          "key": "Sistemi i lëvizjes së teleskopit",
+          "value": "Sistem robotik me motor Torque Drive"
+        }
+      ],
+      "researchStatus": "draft_from_brochure",
+      "specificationsSource": "brochure_pdf",
+      "technicalReviewStatus": "partial_checked_against_brochure"
+    },
+    {
+      "slug": "alpha-al03",
+      "manufacturer": "AlphaGeo",
+      "categoryId": "total-stations-levels",
+      "source": {
+        "productUrl": null,
+        "brochureFile": "alpha-al03.pdf",
+        "verifiedFrom": "official_brochure_supplied_by_user"
+      },
+      "content": {
+        "sq": {
+          "name": "ALPHA AL03",
+          "shortDescription": "Nivel digjital për nivelim gjeodezik.",
+          "description": "ALPHA AL03 është nivel digjital që ofron lexim elektronik të stafës dhe matje të distancës, me programe për nivelimin e linjave dhe matjen e diferencave të lartësisë. Broshura përshkruan teleskop me zmadhim 43× dhe ekran me ngjyra.",
+          "features": [
+            "Lexim digjital i stafës",
+            "Zmadhim teleskopi 43×",
+            "Programe nivelimi"
+          ]
+        }
+      },
+      "specifications": [
+        {
+          "key": "Zmadhimi i teleskopit",
+          "value": "43×"
+        },
+        {
+          "key": "Distanca e matjes",
+          "value": "2–200 m"
+        },
+        {
+          "key": "Koha e matjes",
+          "value": "2 s"
+        },
+        {
+          "key": "Diametri i objektivit",
+          "value": "50 mm"
+        },
+        {
+          "key": "Saktësia e nivelimit digjital",
+          "value": "0.3 mm / 1 km (nivelim vajtje-ardhje)"
+        },
+        {
+          "key": "Saktësia e nivelimit optik",
+          "value": "1.5 mm / 1 km"
+        },
+        {
+          "key": "Diapazoni i kompensatorit",
+          "value": "±14′"
+        },
+        {
+          "key": "Ekrani",
+          "value": "3.5 in, 320 × 480, me prekje"
+        },
+        {
+          "key": "Klasa e mbrojtjes",
+          "value": "IP54"
+        },
+        {
+          "key": "Pesha",
+          "value": "4.1 kg (me bateri)"
+        },
+        {
+          "key": "Kohëzgjatja e baterisë",
+          "value": ">15 orë"
+        },
+        {
+          "key": "Temperatura e funksionimit",
+          "value": "−20°C deri +50°C"
+        },
+        {
+          "key": "Memoria e brendshme",
+          "value": "2 GB"
+        },
+        {
+          "key": "Ndërfaqja e të dhënave",
+          "value": "Type-C, Bluetooth, RS-232, USB"
+        }
+      ],
+      "researchStatus": "draft_from_brochure",
+      "specificationsSource": "brochure_pdf",
+      "technicalReviewStatus": "partial_checked_against_brochure"
+    },
+    {
+      "slug": "alpha-y",
+      "manufacturer": "AlphaGeo",
+      "categoryId": "total-stations-levels",
+      "source": {
+        "productUrl": null,
+        "brochureFile": "Alpha-y.pdf",
+        "verifiedFrom": "official_brochure_supplied_by_user"
+      },
+      "content": {
+        "sq": {
+          "name": "ALPHA Y",
+          "shortDescription": "Stacion total me sistem Android",
+          "description": "ALPHA Y është stacion total me sistem operativ Android për matje dhe piketim gjeodezik. Broshura paraqet ndërfaqe të bazuar në Android për punë me instrumentin në terren.",
+          "features": [
+            "Sistem Android",
+            "Matje gjeodezike",
+            "Piketim"
+          ]
+        }
+      },
+      "specifications": [
+        {
+          "key": "Sistemi operativ",
+          "value": "Android 11"
+        },
+        {
+          "key": "Procesori",
+          "value": "ARM Cortex-A55, deri 2 GHz"
+        },
+        {
+          "key": "Memoria RAM",
+          "value": "4 GB"
+        },
+        {
+          "key": "Memoria e brendshme",
+          "value": "32 GB"
+        },
+        {
+          "key": "Ekrani",
+          "value": "5.5 in, 1280 × 720"
+        },
+        {
+          "key": "Wi-Fi",
+          "value": "Po"
+        },
+        {
+          "key": "Bluetooth",
+          "value": "Po"
+        },
+        {
+          "key": "Rrjeti mobil",
+          "value": "4G (opsional)"
+        },
+        {
+          "key": "Ndërfaqja e të dhënave",
+          "value": "USB / Type-C"
+        }
+      ],
+      "researchStatus": "draft_from_brochure",
+      "specificationsSource": "brochure_pdf",
+      "technicalReviewStatus": "partial_checked_against_brochure"
+    },
+    {
+      "slug": "alpha-x-plus",
+      "manufacturer": "AlphaGeo",
+      "categoryId": "total-stations-levels",
+      "source": {
+        "productUrl": null,
+        "brochureFile": "alpha-x-plus.pdf",
+        "verifiedFrom": "official_brochure_supplied_by_user"
+      },
+      "content": {
+        "sq": {
+          "name": "ALPHA X+",
+          "shortDescription": "Stacion total me ekran me prekje",
+          "description": "ALPHA X+ është stacion total për matje dhe piketim në terren. Modeli paraqitet me ndërfaqe me ekran me prekje, për kontrollin e punës dhe përdorimin e funksioneve të instrumentit.",
+          "features": [
+            "Ekran me prekje",
+            "Matje dhe piketim"
+          ]
+        }
+      },
+      "specifications": [],
+      "researchStatus": "draft_from_brochure",
+      "technicalReviewStatus": "requires_manual_table_review"
+    },
+    {
+      "slug": "alpha-x",
+      "manufacturer": "AlphaGeo",
+      "categoryId": "total-stations-levels",
+      "source": {
+        "productUrl": null,
+        "brochureFile": "alpha-x.pdf",
+        "verifiedFrom": "official_brochure_supplied_by_user"
+      },
+      "content": {
+        "sq": {
+          "name": "ALPHA X",
+          "shortDescription": "Stacion total me kompensator në dy akse dhe Bluetooth.",
+          "description": "ALPHA X është stacion total për matje gjeodezike, me kompensator në dy akse, ekran LCD dhe lidhje Bluetooth për komunikim me kontrollerin e të dhënave. Broshura përmend përdorimin me softuerin SurPro 6.0.",
+          "features": [
+            "Kompensator në dy akse",
+            "Bluetooth",
+            "Ekran LCD"
+          ]
+        }
+      },
+      "specifications": [
+        {
+          "key": "Zmadhimi i teleskopit",
+          "value": "30×"
+        },
+        {
+          "key": "Saktësia këndore",
+          "value": "2″ / 5″ (sipas variantit)"
+        },
+        {
+          "key": "Diametri i objektivit",
+          "value": "45 mm"
+        },
+        {
+          "key": "Distanca pa reflektor",
+          "value": "1–1000 m (kushte të mira)"
+        },
+        {
+          "key": "Distanca me prizëm",
+          "value": "1–5000 m (prizëm i vetëm)"
+        },
+        {
+          "key": "Saktësia e distancës me prizëm",
+          "value": "2 mm + 2 ppm"
+        },
+        {
+          "key": "Kapaciteti i baterisë",
+          "value": "3400 mAh"
+        },
+        {
+          "key": "Kohëzgjatja e baterisë",
+          "value": "rreth 26 orë"
+        },
+        {
+          "key": "Pesha",
+          "value": "5.1 kg (me bateri)"
+        },
+        {
+          "key": "Dimensionet",
+          "value": "175 × 178 × 340 mm"
+        },
+        {
+          "key": "Bluetooth",
+          "value": "Standard"
+        }
+      ],
+      "researchStatus": "draft_from_brochure",
+      "specificationsSource": "brochure_pdf",
+      "technicalReviewStatus": "partial_checked_against_brochure"
+    },
+    {
+      "slug": "alpha-z",
+      "manufacturer": "AlphaGeo",
+      "categoryId": "total-stations-levels",
+      "source": {
+        "productUrl": null,
+        "brochureFile": "alpha-z.pdf",
+        "verifiedFrom": "official_brochure_supplied_by_user"
+      },
+      "content": {
+        "sq": {
+          "name": "ALPHA Z",
+          "shortDescription": "Stacion total Android me funksione grafike piketimi.",
+          "description": "ALPHA Z është stacion total me sistem operativ Android dhe softuerin SurPro 6.0 për matje dhe piketim. Broshura shfaq funksione për piketimin e pikave dhe vijave, punën me CAD dhe matje topografike.",
+          "features": [
+            "Sistem Android",
+            "Piketim grafik",
+            "Integrim me CAD"
+          ]
+        }
+      },
+      "specifications": [
+        {
+          "key": "Sistemi operativ",
+          "value": "Android 12"
+        },
+        {
+          "key": "Gjatësia e teleskopit",
+          "value": "156 mm"
+        }
+      ],
+      "researchStatus": "draft_from_brochure",
+      "specificationsSource": "brochure_pdf",
+      "technicalReviewStatus": "partial_checked_against_brochure"
+    },
+    {
+      "slug": "alpha-al32",
+      "manufacturer": "AlphaGeo",
+      "categoryId": "total-stations-levels",
+      "source": {
+        "productUrl": null,
+        "brochureFile": "Alpha-AL32.pdf",
+        "verifiedFrom": "official_brochure_supplied_by_user"
+      },
+      "content": {
+        "sq": {
+          "name": "ALPHA AL32",
+          "shortDescription": "Nivel automatik për matje të lartësive",
+          "description": "ALPHA AL32 është nivel automatik i projektuar për nivelim dhe matje të diferencave të lartësisë. Përdoret në punime gjeodezike dhe ndërtimore ku kërkohet kontroll i kuotave.",
+          "features": [
+            "Nivelim automatik",
+            "Matje të diferencës së lartësisë"
+          ]
+        }
+      },
+      "specifications": [],
+      "researchStatus": "draft_from_brochure",
+      "technicalReviewStatus": "requires_manual_table_review"
+    },
+    {
+      "slug": "alpha-al45",
+      "manufacturer": "AlphaGeo",
+      "categoryId": "total-stations-levels",
+      "source": {
+        "productUrl": null,
+        "brochureFile": "alpha-al45.pdf",
+        "verifiedFrom": "official_brochure_supplied_by_user"
+      },
+      "content": {
+        "sq": {
+          "name": "ALPHA AL45",
+          "shortDescription": "Nivel automatik për nivelim në ndërtim dhe gjeodezi.",
+          "description": "ALPHA AL45 është nivel automatik për punime të zakonshme nivelimi dhe matje në ndërtim. Broshura përshkruan teleskop me zmadhim 32×, kompensator automatik me amortizim magnetik dhe trup metalik mbrojtës.",
+          "features": [
+            "Zmadhim 32×",
+            "Kompensator automatik",
+            "Trup metalik"
+          ]
+        }
+      },
+      "specifications": [
+        {
+          "key": "Zmadhimi i teleskopit",
+          "value": "32×"
+        },
+        {
+          "key": "Devijimi standard i nivelimit",
+          "value": "1.0 mm / 1 km (nivelim vajtje-ardhje)"
+        },
+        {
+          "key": "Saktësia e vendosjes",
+          "value": "±0.3″"
+        },
+        {
+          "key": "Diapazoni i kompensatorit",
+          "value": "±15′"
+        },
+        {
+          "key": "Diametri i objektivit",
+          "value": "45 mm"
+        },
+        {
+          "key": "Distanca minimale e fokusimit",
+          "value": "0.3 m"
+        },
+        {
+          "key": "Klasa e mbrojtjes",
+          "value": "IP54"
+        },
+        {
+          "key": "Pesha",
+          "value": "1.95 kg"
+        },
+        {
+          "key": "Dimensionet",
+          "value": "234 × 133 × 145 mm"
+        },
+        {
+          "key": "Fusha e pamjes",
+          "value": "1°20′"
+        }
+      ],
+      "researchStatus": "draft_from_brochure",
+      "specificationsSource": "brochure_pdf",
+      "technicalReviewStatus": "partial_checked_against_brochure"
+    },
+    {
+      "slug": "alpha-ark-n",
+      "manufacturer": "AlphaGeo",
+      "categoryId": "hydro",
+      "source": {
+        "productUrl": null,
+        "brochureFile": "alpha-ark-n.pdf",
+        "verifiedFrom": "official_brochure_supplied_by_user"
+      },
+      "content": {
+        "sq": {
+          "name": "ALPHA ARK-N",
+          "shortDescription": "Mjet sipërfaqësor pa ekuipazh për hidrografi",
+          "description": "ALPHA ARK-N është mjet sipërfaqësor pa ekuipazh (USV) për mbledhje të dhënash hidrografike në ujë. Platforma është e orientuar për matje ujore dhe përdorim me pajisje matëse.",
+          "features": [
+            "Platformë USV",
+            "Matje hidrografike"
+          ]
+        }
+      },
+      "specifications": [],
+      "researchStatus": "draft_from_brochure",
+      "technicalReviewStatus": "requires_manual_table_review"
+    },
+    {
+      "slug": "alpha-ark",
+      "manufacturer": "AlphaGeo",
+      "categoryId": "hydro",
+      "source": {
+        "productUrl": null,
+        "brochureFile": "alpha-ark.pdf",
+        "verifiedFrom": "official_brochure_supplied_by_user"
+      },
+      "content": {
+        "sq": {
+          "name": "ALPHA ARK",
+          "shortDescription": "Mjet USV për matje dhe mbledhje të dhënash në ujë.",
+          "description": "ALPHA ARK është mjet sipërfaqësor pa ekuipazh (USV) i pajisur për punime hidrografike dhe monitorim në ujë. Specifikimet e broshurës listojnë material trupi Kevlar dhe fibër karboni, ekosondë standarde me një rreze dhe mundësi integrimi të instrumenteve të tjera.",
+          "features": [
+            "Ekosondë me një rreze",
+            "Trup Kevlar/fibër karboni",
+            "Instrumente opsionale"
+          ]
+        }
+      },
+      "specifications": [
+        {
+          "key": "Dimensionet e trupit",
+          "value": "1180 × 620 × 345 mm"
+        }
+      ],
+      "researchStatus": "draft_from_brochure",
+      "technicalReviewStatus": "partial_checked_against_brochure"
+    },
+    {
+      "slug": "alpha-ark-s",
+      "manufacturer": "AlphaGeo",
+      "categoryId": "hydro",
+      "source": {
+        "productUrl": null,
+        "brochureFile": "alpha-ark-s.pdf",
+        "verifiedFrom": "official_brochure_supplied_by_user"
+      },
+      "content": {
+        "sq": {
+          "name": "ALPHA ARK S",
+          "shortDescription": "Mjet sipërfaqësor pa ekuipazh për matje hidrografike.",
+          "description": "ALPHA ARK S është mjet kompakt sipërfaqësor pa ekuipazh (USV) me trup trimaran, i projektuar për mbledhje të të dhënave në ujë. Broshura përshkruan strukturë me përbërje Kevlar dhe fibër karboni, mundësi integrimi të sensorëve dhe rikthim automatik në kushte të caktuara sigurie.",
+          "features": [
+            "USV me trup trimaran",
+            "Integrim i sensorëve",
+            "Rikthim automatik"
+          ]
+        }
+      },
+      "specifications": [
+        {
+          "key": "Dimensionet",
+          "value": "750 × 410 × 230 mm"
+        },
+        {
+          "key": "Pesha",
+          "value": "5 kg"
+        },
+        {
+          "key": "Ngarkesa maksimale",
+          "value": "8 kg"
+        },
+        {
+          "key": "Kohëzgjatja e baterisë",
+          "value": "4 orë (2 m/s)"
+        },
+        {
+          "key": "Shpejtësia e lundrimit",
+          "value": "1.5–2 m/s"
+        },
+        {
+          "key": "Shpejtësia maksimale",
+          "value": "5 m/s"
+        },
+        {
+          "key": "Distanca e komunikimit",
+          "value": "2 km"
+        },
+        {
+          "key": "Frekuenca e sonarit",
+          "value": "200 kHz"
+        },
+        {
+          "key": "Këndi i rrezes sonare",
+          "value": "5°"
+        },
+        {
+          "key": "Diapazoni i matjes së thellësisë",
+          "value": "0.4–100 m"
+        },
+        {
+          "key": "Saktësia e thellësisë",
+          "value": "±1 cm ±0.1% D (D = thellësia)"
+        },
+        {
+          "key": "Rezolucioni i thellësisë",
+          "value": "0.01 m"
+        }
+      ],
+      "researchStatus": "draft_from_brochure",
+      "specificationsSource": "brochure_pdf",
+      "technicalReviewStatus": "partial_checked_against_brochure"
+    },
+    {
+      "slug": "alpha-tg25",
+      "manufacturer": "AlphaGeo",
+      "categoryId": "hydro",
+      "source": {
+        "productUrl": null,
+        "brochureFile": "Alpha-tg25.pdf",
+        "verifiedFrom": "official_brochure_supplied_by_user"
+      },
+      "content": {
+        "sq": {
+          "name": "ALPHA TG25",
+          "shortDescription": "Instrument automatik për matjen e nivelit të baticës dhe zbaticës",
+          "description": "ALPHA TG25 është instrument automatik për monitorimin e nivelit të ujit dhe ndryshimeve të tij me kalimin e kohës. Përdoret në aplikime hidrografike dhe vrojtime të nivelit të ujit.",
+          "features": [
+            "Matje automatike e nivelit të ujit",
+            "Monitorim hidrografik"
+          ]
+        }
+      },
+      "specifications": [
+        {
+          "key": "Saktësia e presionit",
+          "value": "0.05% FS"
+        },
+        {
+          "key": "Rezolucioni i presionit",
+          "value": "0.001 kPa"
+        },
+        {
+          "key": "Diapazoni i matjes së thellësisë",
+          "value": "0–50 m ose 0–200 m (sipas variantit)"
+        },
+        {
+          "key": "Intervali i regjistrimit",
+          "value": "1 sekondë deri 18 orë"
+        },
+        {
+          "key": "Frekuenca maksimale e regjistrimit",
+          "value": "8 Hz"
+        },
+        {
+          "key": "Saktësia e temperaturës",
+          "value": "0.3°C"
+        },
+        {
+          "key": "Rezolucioni i temperaturës",
+          "value": "0.01°C"
+        },
+        {
+          "key": "Diapazoni i temperaturës",
+          "value": "−5°C deri +40°C"
+        },
+        {
+          "key": "Memoria e brendshme",
+          "value": "2 milion pika të dhënash"
+        },
+        {
+          "key": "Ndërfaqja e të dhënave",
+          "value": "RS485"
+        },
+        {
+          "key": "Pesha",
+          "value": "280 g"
+        },
+        {
+          "key": "Diametri",
+          "value": "25 mm"
+        },
+        {
+          "key": "Gjatësia",
+          "value": "237 mm"
+        }
+      ],
+      "researchStatus": "draft_from_brochure",
+      "specificationsSource": "brochure_pdf",
+      "technicalReviewStatus": "partial_checked_against_brochure"
+    },
+    {
+      "slug": "alpha-es50",
+      "manufacturer": "AlphaGeo",
+      "categoryId": "hydro",
+      "source": {
+        "productUrl": null,
+        "brochureFile": "alpha-es50.pdf",
+        "verifiedFrom": "official_brochure_supplied_by_user"
+      },
+      "content": {
+        "sq": {
+          "name": "ALPHA ES50",
+          "shortDescription": "Ekosondë me një rreze për matje të thellësisë",
+          "description": "ALPHA ES50 është ekosondë me një rreze (single-beam echo sounder) për matjen e thellësisë së ujit. Pajisja përdoret për mbledhjen e të dhënave batimetrike në punime hidrografike.",
+          "features": [
+            "Ekosondë me një rreze",
+            "Matje të thellësisë së ujit"
+          ]
+        }
+      },
+      "specifications": [
+        {
+          "key": "Frekuenca e sonarit",
+          "value": "200 kHz"
+        },
+        {
+          "key": "Këndi i rrezes sonare",
+          "value": "5.7°"
+        },
+        {
+          "key": "Rezolucioni i thellësisë",
+          "value": "1 cm"
+        },
+        {
+          "key": "Diapazoni i matjes së thellësisë",
+          "value": "0.2–50 m"
+        },
+        {
+          "key": "Saktësia e thellësisë",
+          "value": "±0.5% × D (D = thellësia e matur)"
+        },
+        {
+          "key": "Kohëzgjatja e baterisë",
+          "value": "8 orë"
+        },
+        {
+          "key": "Furnizimi me energji",
+          "value": "DC 10.8–26.4 V"
+        },
+        {
+          "key": "Temperatura e funksionimit",
+          "value": "−30°C deri +60°C"
+        },
+        {
+          "key": "Pesha",
+          "value": "1 kg"
+        },
+        {
+          "key": "Ndërfaqja e të dhënave",
+          "value": "RS232"
+        }
+      ],
+      "researchStatus": "draft_from_brochure",
+      "specificationsSource": "brochure_pdf",
+      "technicalReviewStatus": "partial_checked_against_brochure"
+    },
+    {
+      "slug": "gyro-70",
+      "manufacturer": "AlphaGeo",
+      "categoryId": "geophysical",
+      "source": {
+        "productUrl": null,
+        "brochureFile": "Gyro70.pdf",
+        "verifiedFrom": "official_brochure_supplied_by_user"
+      },
+      "content": {
+        "sq": {
+          "name": "GYRO 70",
+          "shortDescription": "Sistem për matje tredimensionale të tubacioneve",
+          "description": "GYRO 70 është sistem matës për përcaktimin tridimensional të trajektores së tubacioneve. Broshura e paraqet për aplikime ku nevojitet dokumentimi i pozicionit dhe drejtimit të linjave të tubacioneve.",
+          "features": [
+            "Matje 3D e tubacioneve",
+            "Dokumentim i trajektores"
+          ]
+        }
+      },
+      "specifications": [
+        {
+          "key": "Frekuenca e regjistrimit",
+          "value": "2200 Hz"
+        },
+        {
+          "key": "Saktësia horizontale",
+          "value": "<0.15% L"
+        },
+        {
+          "key": "Saktësia vertikale",
+          "value": "<0.05% L"
+        },
+        {
+          "key": "Gjatësia",
+          "value": "259 mm"
+        },
+        {
+          "key": "Diametri",
+          "value": "54 mm"
+        },
+        {
+          "key": "Pesha",
+          "value": "1.3 kg"
+        },
+        {
+          "key": "Diametri i tubave",
+          "value": "65–1500 mm"
+        },
+        {
+          "key": "Kohëzgjatja e baterisë",
+          "value": ">20 orë"
+        },
+        {
+          "key": "Klasa e mbrojtjes",
+          "value": "IP68"
+        },
+        {
+          "key": "Temperatura e funksionimit",
+          "value": "−30°C deri +70°C"
+        }
+      ],
+      "researchStatus": "draft_from_brochure",
+      "specificationsSource": "brochure_pdf",
+      "technicalReviewStatus": "partial_checked_against_brochure"
+    },
+    {
+      "slug": "alpha-dt3",
+      "manufacturer": "AlphaGeo",
+      "categoryId": "geophysical",
+      "source": {
+        "productUrl": null,
+        "brochureFile": "alpha-dt3.pdf",
+        "verifiedFrom": "official_brochure_supplied_by_user"
+      },
+      "content": {
+        "sq": {
+          "name": "ALPHA DT3",
+          "shortDescription": "Detektor shumëfunksional për tubacione dhe kabllo nëntokësore.",
+          "description": "ALPHA DT3 është sistem detektimi për identifikimin dhe gjurmimin e tubacioneve, kabllove dhe linjave të tjera nëntokësore. Broshura përshkruan transmetues me fuqi deri në 15 W, ekrane me prekje dhe mënyra të ndryshme lokalizimi, duke përfshirë zbulimin e defekteve me aksesorë opsionalë.",
+          "features": [
+            "Transmetues deri në 15 W",
+            "Ekrane me prekje",
+            "Gjurmim i linjave nëntokësore"
+          ]
+        }
+      },
+      "specifications": [
+        {
+          "key": "Fuqia e transmetuesit",
+          "value": "up to 15 W"
+        },
+        {
+          "key": "Ekrani i lokalizuesit",
+          "value": "4.3 in (ekran me ngjyra, me prekje)"
+        },
+        {
+          "key": "Ekrani i transmetuesit",
+          "value": "5.6 in (ekran me ngjyra, me prekje)"
+        }
+      ],
+      "researchStatus": "draft_from_brochure",
+      "specificationsSource": "brochure_pdf",
+      "technicalReviewStatus": "partial_checked_against_brochure"
+    },
+    {
+      "slug": "alpha-d200",
+      "manufacturer": "AlphaGeo",
+      "categoryId": "geophysical",
+      "source": {
+        "productUrl": null,
+        "brochureFile": "alpha-d200.pdf",
+        "verifiedFrom": "official_brochure_supplied_by_user"
+      },
+      "content": {
+        "sq": {
+          "name": "Alpha D200",
+          "shortDescription": "Radar depërtues në tokë për zbulim nëntokësor",
+          "description": "Alpha D200 është radar depërtues në tokë (GPR) për identifikimin e objekteve dhe strukturave nën sipërfaqe. Materiali i prodhuesit e paraqet për zbulimin e tubacioneve të gazit dhe ujit, kabllove dhe zgavrave nëntokësore.",
+          "features": [
+            "Radar depërtues në tokë",
+            "Zbulim i linjave nëntokësore",
+            "Identifikim i zgavrave"
+          ]
+        }
+      },
+      "specifications": [],
+      "researchStatus": "draft_from_brochure",
+      "technicalReviewStatus": "requires_manual_table_review"
+    },
+    {
+      "slug": "alphageo-lr9",
+      "manufacturer": "AlphaGeo",
+      "categoryId": "reference",
+      "source": {
+        "productUrl": null,
+        "brochureFile": "alphageo-lr9.pdf",
+        "verifiedFrom": "official_brochure_supplied_by_user"
+      },
+      "content": {
+        "sq": {
+          "name": "ALPHAGEO LR9",
+          "shortDescription": "Marrës referencë GNSS për stacione dhe monitorim.",
+          "description": "ALPHAGEO LR9 është marrës referencë GNSS me dizajn të ndarë, i projektuar për stacione CORS, monitorim gjeorreziku dhe monitorim strukturor. Broshura përshkruan ndjekje shumëkonstelacionale dhe shumëfrekuencore, si dhe mbështetje për teknikat RTK/PPK.",
+          "features": [
+            "Përdorim për CORS",
+            "GNSS shumëkonstelacional",
+            "Mbështetje RTK/PPK"
+          ]
+        }
+      },
+      "specifications": [
+        {
+          "key": "Kanalet GNSS",
+          "value": "1408"
+        },
+        {
+          "key": "Memoria e brendshme",
+          "value": "32 GB"
+        },
+        {
+          "key": "Ekrani",
+          "value": "2.42 in OLED, 128 × 64"
+        },
+        {
+          "key": "Sistemi operativ",
+          "value": "Linux"
+        },
+        {
+          "key": "Frekuenca e pozicionimit GNSS",
+          "value": "1 Hz"
+        },
+        {
+          "key": "Kapaciteti i baterisë",
+          "value": "20000 mAh"
+        },
+        {
+          "key": "Klasa e mbrojtjes",
+          "value": "IP67"
+        },
+        {
+          "key": "Pesha",
+          "value": "≤1.5 kg"
+        },
+        {
+          "key": "Dimensionet",
+          "value": "196 × 145 × 62 mm"
+        },
+        {
+          "key": "Furnizimi me energji",
+          "value": "DC 9–36 V"
+        },
+        {
+          "key": "Konsumi i energjisë",
+          "value": "≤2.5 W"
+        },
+        {
+          "key": "Temperatura e funksionimit",
+          "value": "−40°C deri +75°C"
+        },
+        {
+          "key": "Wi-Fi",
+          "value": "802.11 b/g"
+        },
+        {
+          "key": "Frekuenca e pozicionimit",
+          "value": "1 Hz"
+        },
+        {
+          "key": "Inicializimi RTK",
+          "value": "<10 s (bazë <10 km)"
+        }
+      ],
+      "researchStatus": "draft_from_brochure",
+      "specificationsSource": "brochure_pdf",
+      "technicalReviewStatus": "partial_checked_against_brochure"
+    },
+    {
+      "slug": "a-tab",
+      "manufacturer": "AlphaGeo",
+      "categoryId": "controllers",
+      "source": {
+        "productUrl": null,
+        "brochureFile": "a-tab.pdf",
+        "verifiedFrom": "official_brochure_supplied_by_user"
+      },
+      "content": {
+        "sq": {
+          "name": "A-Tab",
+          "shortDescription": "Kontroller terreni për mbledhjen e të dhënave gjeodezike.",
+          "description": "A-Tab është kontroller profesional për matje dhe hartëzim në terren, me ekran 5.5 inç të përshtatur për lexim në dritë të fortë. Mbështet komunikim përmes Bluetooth, Wi-Fi dhe rrjetit celular 4G për lidhje me pajisje GNSS dhe shërbime RTK.",
+          "features": [
+            "Ekran 5.5 inç",
+            "Lidhje Bluetooth, Wi-Fi dhe 4G",
+            "Projektuar për punë në terren"
+          ]
+        }
+      },
+      "specifications": [
+        {
+          "key": "Madhësia e ekranit",
+          "value": "5.5 in"
+        },
+        {
+          "key": "Kapaciteti i baterisë",
+          "value": "9000 mAh"
+        },
+        {
+          "key": "Klasa e mbrojtjes",
+          "value": "IP68"
+        },
+        {
+          "key": "Bluetooth",
+          "value": "5.0"
+        },
+        {
+          "key": "Pesha",
+          "value": "436 g"
+        },
+        {
+          "key": "Rezolucioni i ekranit",
+          "value": "1080p"
+        },
+        {
+          "key": "Ndriçimi i ekranit",
+          "value": "550 nit"
+        },
+        {
+          "key": "Ekrani",
+          "value": "5.5 in, Full HD (1080p), 550 nit"
+        },
+        {
+          "key": "Sistemi operativ",
+          "value": "Android"
+        }
+      ],
+      "researchStatus": "draft_from_brochure",
+      "specificationsSource": "brochure_pdf",
+      "technicalReviewStatus": "partial_checked_against_brochure"
+    },
+    {
+      "slug": "s60iii",
+      "manufacturer": "AlphaGeo",
+      "categoryId": "controllers",
+      "source": {
+        "productUrl": null,
+        "brochureFile": null
+      },
+      "content": {
+        "sq": {
+          "name": "S60III",
+          "shortDescription": "",
+          "description": "",
+          "features": []
+        }
+      },
+      "specifications": [],
+      "researchStatus": "deferred_no_brochure",
+      "technicalReviewStatus": "deferred"
+    },
+    {
+      "slug": "colibri-ii",
+      "manufacturer": "AlphaGeo",
+      "categoryId": "monitoring",
+      "source": {
+        "productUrl": null,
+        "brochureFile": null
+      },
+      "content": {
+        "sq": {
+          "name": "COLIBRI II",
+          "shortDescription": "",
+          "description": "",
+          "features": []
+        }
+      },
+      "specifications": [],
+      "researchStatus": "deferred_no_brochure",
+      "technicalReviewStatus": "deferred"
+    },
+    {
+      "slug": "alpha-dg1",
+      "manufacturer": "AlphaGeo",
+      "categoryId": "machine-control",
+      "source": {
+        "productUrl": null,
+        "brochureFile": "alpha-dg1.pdf",
+        "verifiedFrom": "official_brochure_supplied_by_user"
+      },
+      "content": {
+        "sq": {
+          "name": "ALPHA DG1",
+          "shortDescription": "Sistem GNSS për orientimin e ekskavatorit.",
+          "description": "ALPHA DG1 është sistem udhëzimi për ekskavatorë që kombinon pozicionimin, sensorët dhe softuerin SmartSite për mbështetje vizuale në kohë reale. Përdoret për gërmime, nivelim, kanale dhe punime pjerrësie, me synim kontroll më të mirë të thellësisë dhe pozicionit të kovës.",
+          "features": [
+            "Udhëzim vizual në kohë reale",
+            "Punime nivelimi dhe kanalesh",
+            "Softuer SmartSite"
+          ]
+        }
+      },
+      "specifications": [
+        {
+          "key": "Kanalet GNSS",
+          "value": "1408"
+        },
+        {
+          "key": "Saktësia RTK horizontale",
+          "value": "8 mm + 1 ppm RMS"
+        },
+        {
+          "key": "Saktësia RTK vertikale",
+          "value": "15 mm + 1 ppm RMS"
+        },
+        {
+          "key": "Kompensimi i pjerrësisë IMU",
+          "value": "0–120°"
+        },
+        {
+          "key": "Frekuenca e përditësimit IMU",
+          "value": "400 Hz"
+        },
+        {
+          "key": "Klasa e mbrojtjes",
+          "value": "IP67"
+        },
+        {
+          "key": "Pesha e marrësit GNSS",
+          "value": "430 g"
+        },
+        {
+          "key": "Dimensionet e marrësit GNSS",
+          "value": "82 × 82 × 89.3 mm"
+        },
+        {
+          "key": "Frekuenca e pozicionimit",
+          "value": "1–20 Hz"
+        },
+        {
+          "key": "Kapaciteti i baterisë",
+          "value": "3500 mAh (kontrolluesi)"
+        },
+        {
+          "key": "Bluetooth",
+          "value": "SPP / BLE"
+        }
+      ],
+      "researchStatus": "draft_from_brochure",
+      "specificationsSource": "brochure_pdf",
+      "technicalReviewStatus": "partial_checked_against_brochure"
+    },
+    {
+      "slug": "hx-du8602t",
+      "manufacturer": "AlphaGeo",
+      "categoryId": "accessories",
+      "source": {
+        "productUrl": null,
+        "brochureFile": null
+      },
+      "content": {
+        "sq": {
+          "name": "HX-DU8602T",
+          "shortDescription": "",
+          "description": "",
+          "features": []
+        }
+      },
+      "specifications": [],
+      "researchStatus": "deferred_no_brochure",
+      "technicalReviewStatus": "deferred"
+    },
+    {
+      "slug": "hx-du8616d",
+      "manufacturer": "AlphaGeo",
+      "categoryId": "accessories",
+      "source": {
+        "productUrl": null,
+        "brochureFile": null
+      },
+      "content": {
+        "sq": {
+          "name": "HX-DU8616D",
+          "shortDescription": "",
+          "description": "",
+          "features": []
+        }
+      },
+      "specifications": [],
+      "researchStatus": "deferred_no_brochure",
+      "technicalReviewStatus": "deferred"
+    }
+  ],
+  "localeCodes": [
+    "sq"
+  ]
+}

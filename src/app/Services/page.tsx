@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
+import ServicesTimeline from "@/components/ServicesTimeline";
+
 import { services } from "@/data/services";
 
 export const metadata: Metadata = {
@@ -33,70 +36,102 @@ export default function ServicesPage() {
           </div>
         </section>
 
-        {/* Services timeline */}
+        {/* Animated services timeline */}
         <section
           aria-label="Lista e shërbimeve"
           className="px-5 py-20 sm:px-6 lg:px-8 lg:py-28"
         >
-          <div className="relative mx-auto max-w-6xl">
-            {/* Vertical timeline line */}
-            <div
-              aria-hidden="true"
-              className="absolute bottom-12 left-6 top-12 w-px bg-[#CED8BE] md:left-1/2 md:-translate-x-1/2"
-            />
+          <div className="mx-auto max-w-6xl">
+            <ServicesTimeline>
+              <div className="space-y-10 md:space-y-16">
+                {services.map((service, index) => {
+                  const isLeft = index % 2 === 0;
 
-            <div className="space-y-10 md:space-y-14">
-              {services.map((service, index) => {
-                const isLeft = index % 2 === 0;
+                  const number = String(index + 1).padStart(2, "0");
 
-                return (
-                  <article
-                    key={service.id}
-                    id={service.id}
-                    className="relative grid scroll-mt-10 grid-cols-[48px_minmax(0,1fr)] items-center gap-5 md:grid-cols-[minmax(0,1fr)_64px_minmax(0,1fr)] md:gap-8"
-                  >
-                    {/* Timeline marker */}
-                    <div className="relative z-10 col-start-1 row-start-1 flex h-12 w-12 items-center justify-center rounded-full border-4 border-background bg-primary text-sm font-semibold text-white shadow-sm md:col-start-2 md:mx-auto md:h-16 md:w-16">
-                      {String(index + 1).padStart(2, "0")}
-                    </div>
+                  return (
+                    <article
+                      key={service.id}
+                      id={service.id}
+                      className="
+                        relative grid scroll-mt-10
+                        grid-cols-[48px_minmax(0,1fr)]
+                        items-center gap-x-5
 
-                    {/* Service card */}
-                    <div
-                      className={`col-start-2 row-start-1 md:col-span-1 ${
-                        isLeft ? "md:col-start-1" : "md:col-start-3"
-                      }`}
+                        md:grid-cols-[minmax(0,1fr)_64px_minmax(48px,0.2fr)_64px_minmax(0,1fr)]
+                        md:gap-x-4
+                      "
                     >
+                      {/* Timeline number */}
                       <div
-                        className={`group rounded-2xl border border-border bg-white p-6 shadow-sm transition-all duration-200 hover:border-[#B8C9A5] hover:shadow-lg sm:p-8 ${
-                          isLeft ? "md:text-right" : "md:text-left"
-                        }`}
+                        data-timeline-marker
+                        className={`
+                          relative z-20
+                          col-start-1 row-start-1
+                          flex h-12 w-12
+                          items-center justify-center
+                          justify-self-center
+                          rounded-full
+                          border-4 border-background
+                          bg-primary text-sm font-semibold
+                          text-white shadow-sm
+
+                          md:h-16 md:w-16
+
+                          ${isLeft ? "md:col-start-2" : "md:col-start-4"}
+                        `}
                       >
-                        <p className="text-xs font-semibold uppercase tracking-[0.16em] text-accent">
-                          Shërbimi {String(index + 1).padStart(2, "0")}
-                        </p>
-
-                        <h2 className="mt-3 text-xl font-semibold tracking-tight text-primary sm:text-2xl">
-                          {service.title}
-                        </h2>
-
-                        <p className="mt-4 text-sm leading-7 text-muted sm:text-base">
-                          {service.description}
-                        </p>
-
-                        <Link
-                          href={`/Services/${service.id}`}
-                          className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-primary-light underline-offset-4 transition-colors hover:text-accent hover:underline"
-                          aria-label={`Më shumë për ${service.title}`}
-                        >
-                          Më shumë
-                          <span aria-hidden="true">→</span>
-                        </Link>
+                        {number}
                       </div>
-                    </div>
-                  </article>
-                );
-              })}
-            </div>
+
+                      {/* Service card */}
+                      <div
+                        className={`
+                          col-start-2 row-start-1 min-w-0
+
+                          md:col-span-1
+
+                          ${isLeft ? "md:col-start-1" : "md:col-start-5"}
+                        `}
+                      >
+                        <div
+                          className="
+                            group rounded-2xl
+                            border border-border
+                            bg-white p-6 shadow-sm
+                            text-left
+                            transition-all duration-200
+                            hover:border-[#B8C9A5]
+                            hover:shadow-lg sm:p-8
+                          "
+                        >
+                          <p className="text-xs font-semibold uppercase tracking-[0.16em] text-accent">
+                            Shërbimi {number}
+                          </p>
+
+                          <h2 className="mt-3 text-xl font-semibold tracking-tight text-primary sm:text-2xl">
+                            {service.title}
+                          </h2>
+
+                          <p className="mt-4 text-sm leading-7 text-muted sm:text-base">
+                            {service.description}
+                          </p>
+
+                          <Link
+                            href={`/Services/${service.id}`}
+                            className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-primary-light underline-offset-4 transition-colors hover:text-accent hover:underline"
+                            aria-label={`Më shumë për ${service.title}`}
+                          >
+                            Më shumë
+                            <span aria-hidden="true">→</span>
+                          </Link>
+                        </div>
+                      </div>
+                    </article>
+                  );
+                })}
+              </div>
+            </ServicesTimeline>
           </div>
         </section>
 
