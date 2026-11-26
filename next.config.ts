@@ -5,6 +5,10 @@ const nextConfig: NextConfig = {
   cacheComponents: true,
   partialPrefetching: true,
 
+  experimental: {
+    agentUpgrade: "security",
+  },
+
   turbopack: {
     root: path.resolve(process.cwd()),
 
