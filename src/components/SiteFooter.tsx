@@ -18,18 +18,20 @@ export default function SiteFooter() {
           {/* COLUMN 1 — GEOSYSTEM */}
           <div className="lg:pt-12">
             {/* Centered official logo */}
+
+            {/* GeoSystem logo — white on footer green */}
             <div className="flex justify-start">
               <Link
                 href="/"
                 aria-label="GeoSystem - Ballina"
-                className="inline-flex rounded-xl bg-[#EEF4E5] p-3 transition-colors hover:bg-white"
+                className="inline-flex items-center justify-center rounded-xl p-3"
               >
                 <Image
                   src="/images/geosystem-logo-transparent.png"
                   alt="GeoSystem"
                   width={1850}
                   height={820}
-                  className="h-16 w-auto max-w-[190px] object-contain"
+                  className="h-[72px] w-auto max-w-[210px] object-contain brightness-0 invert"
                 />
               </Link>
             </div>

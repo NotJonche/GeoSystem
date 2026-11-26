@@ -166,7 +166,7 @@ export default function SiteHeader() {
                   {services.map((service) => (
                     <Link
                       key={service.id}
-                      href={`/Services#${service.id}`}
+                      href={`/Services/${service.id}`}
                       onClick={closeMenus}
                       className="block rounded-lg px-4 py-2.5 text-sm text-primary/80 transition-colors hover:bg-background hover:text-primary"
                     >
@@ -315,7 +315,7 @@ export default function SiteHeader() {
                 {services.map((service) => (
                   <Link
                     key={service.id}
-                    href={`/Services#${service.id}`}
+                    href={`/Services/${service.id}`}
                     onClick={closeMenus}
                     className="block px-6 py-2.5 text-sm text-primary/80 transition-colors hover:bg-white/60 hover:text-primary"
                   >
